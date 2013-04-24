@@ -47,4 +47,8 @@
 	<string name="toast_message_continue_play_hour">시간</string>
 	<string name="toast_message_continue_play_minute">분</string>
 	<string name="toast_message_continue_play_second_and_play">초</string>
+	<string name="nowifi_alert_dialog_continue">계속</string> 
+	<string name="nowifi_alert_dialog_exit">나가기</string>
+	<string name="nowifi_alert_dialog_message">모바일 네트워크를 사용하여 동영상을 재생합니다, 계속하시겠습니까?</string>
+	<string name="nowifi_alert_dialog_title">트래픽 경고</string>
 </resources>

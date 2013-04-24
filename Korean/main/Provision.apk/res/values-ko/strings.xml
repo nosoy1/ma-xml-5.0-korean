@@ -18,8 +18,8 @@
   <string name="shutdown">종료</string>
   <string name="sim_card_detection_dialog_message">SIM카드를 검색중입니다. 잠시 기다려주세요</string>
   <string name="sim_card_detection_info">"SIM카드를 이용한 Xiaomi 계정 설정을 할 수 없습니다. SIM카드가 있으면 주소록 동기화, 휴대전화 위치 찾기등의 기능을 수행할 수 있습니다."</string>
-  <string name="sim_card_detection_label">Detect SIM card</string>
-  <string name="sim_card_detection_status_absent">SIM card not detected!</string>
+  <string name="sim_card_detection_label">SIM 카드 확인</string>
+  <string name="sim_card_detection_status_absent">SIM 카드가 발견되지 않았습니다!</string>
   <string name="traffic_protection_label">데이터사용 감시</string>
   <string name="traffic_protection_summary">데이터사용을 감시해서 한도를 초과시 자동으로 차단합니다.</string>
   <string name="traffic_protection_text_hint">데이터 사용가능 용량을 입력하세요.</string>

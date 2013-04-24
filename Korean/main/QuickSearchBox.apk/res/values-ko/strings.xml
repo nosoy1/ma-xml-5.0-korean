@@ -5,9 +5,9 @@
   <string name="clear_shortcuts">바로가기 삭제</string>
   <string name="clear_shortcuts_agree">바로가기 삭제</string>
   <string name="clear_shortcuts_disagree">"바로가기를 삭제하지 마세요"</string>
-  <string name="clear_shortcuts_prompt">"This will clear all shortcuts and recently chosen search suggestions. (To clear your Browser history, use the Browser's settings.)"</string>
-  <string name="clear_shortcuts_summary">Clear shortcuts and recently chosen search suggestions</string>
-  <string name="corpus_description_apps">Names of installed applications</string>
+  <string name="clear_shortcuts_prompt">"모든 사용기록을 삭제합니다."</string>
+  <string name="clear_shortcuts_summary">사용기록 삭제</string>
+  <string name="corpus_description_apps">설치된 어플리케이션의 이름</string>
   <string name="corpus_description_web">웹,탐색 기록, 북마크 검색</string>
   <string name="corpus_hint_apps">앱 검색</string>
   <string name="corpus_label_apps">앱</string>

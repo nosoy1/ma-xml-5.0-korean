@@ -2004,4 +2004,14 @@
 	<string name="wifi_menu_wfd">Wi-Fi 디스플레이</string>
 	
 	<string name="skip_step">단계 건너뛰기</string>
+	
+	<string name="back_key">뒤로가기 키</string>
+	<string name="dirac_mode_earbuds">이어버드(이어폰)</string>
+	<string name="dirac_mode_earphones">이어폰</string>
+	<string name="home_key">홈 키</string>
+	<string name="dirac_mode_off">디랙 끄기</string>
+	<string name="screen_key_long_press">스크린키 길게 누르기</string>
+	<string name="screen_key_long_press_action">트리거 기능</string>
+	<string name="screen_key_long_press_timeout">길게 누르기 시간제한</string>
+	<string name="under_keyguard">잠금 화면에서</string>
 </resources>
