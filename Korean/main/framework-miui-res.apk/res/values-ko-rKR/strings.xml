@@ -460,4 +460,14 @@
   <string name="white_dews" />
   <string name="winter_begins" />
   <string name="winter_solstice" />
+  
+  <string-array name="detailed_am_pm_names">
+        <item>오전</item>
+        <item>오전</item>
+        <item>오전</item>
+        <item>오후</item>
+        <item>오후</item>
+        <item>오후</item>
+        <item>오후</item>
+    </string-array>
 </resources>
