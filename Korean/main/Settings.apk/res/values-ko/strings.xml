@@ -2014,4 +2014,8 @@
 	<string name="screen_key_long_press_action">트리거 기능</string>
 	<string name="screen_key_long_press_timeout">길게 누르기 시간제한</string>
 	<string name="under_keyguard">잠금 화면에서</string>
+	
+	 <string name="device_name">휴대전화 이름</string>
+	 <string name="device_miui_version">MIUI 버전</string>
+	 <string name="device_name_input_hint">휴대전화 이름을 입력하세요</string>
 </resources>
