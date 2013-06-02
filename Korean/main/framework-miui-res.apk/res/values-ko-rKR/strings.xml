@@ -470,4 +470,13 @@
         <item>오후</item>
         <item>오후</item>
     </string-array>
+	
+	<string name="days">일</string>
+	<string name="deprecated_alarm_message_12_hour_formate"/>
+	<string name="hours">%d 시간</string>
+	<string name="minutes">%d 분</string>
+	<string name="reboot_confirm_title">정말 휴대전화를 재시작 할까요?</string>
+	<string name="shutdown_confirm_title">정말 휴대전화를 종료할까요?</string>
+	
+	
 </resources>

@@ -202,4 +202,6 @@
   <string name="workday_alarm_clock">평일 자명종</string>
   <string name="worldclock_empty_text">No world clocks</string>
   <string name="worldclock_title">시계</string>
+  
+  <string name="timer_alert_alert_silenced">%d분 이후로 초시계가 중지되었습니다.</string>
 </resources>

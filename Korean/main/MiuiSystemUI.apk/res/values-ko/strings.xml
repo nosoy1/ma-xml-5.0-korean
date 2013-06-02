@@ -162,6 +162,16 @@
     <string name="status_bar_toggle_torch">손전등</string>
     <string name="status_bar_toggle_vibrate">진동</string>
     <string name="status_bar_toggle_wifi">Wi-Fi</string>
+	  <string name="status_bar_toggle_auto_brightness">자동 밝기</string>
+  <string name="status_bar_toggle_drive_mode">운전 모드</string>
+  <string name="status_bar_toggle_power_high">성능</string>
+  <string name="status_bar_toggle_power_low">배터리 효율</string>
+  <string name="status_bar_toggle_power_mid">기본</string>
+  <string name="status_bar_toggle_ring">벨</string>
+  <string name="status_bar_toggle_ringtone">벨소리</string>
+  <string name="status_bar_toggle_sync_auto">자동 동기화</string>
+  <string name="status_bar_toggle_sync_manual">동기화</string>
+  <string name="status_bar_toggle_syncing">동기화중</string>
     <string name="screen_rotation_freeze_message">가로 보기로 화면 잠금됨</string>
     <string name="screen_button_disabled_message">화면 하단의 버튼들이 비활성화 되었습니다. 홈 버튼과 전원버튼을 동시에 눌러 활성화할 수 있습니다.</string>
     <string name="screen_button_enabled_message">화면 하단의 버튼들이 활성화 되었습니다.</string>

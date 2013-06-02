@@ -574,5 +574,7 @@
 	
 	<string name="clear_thumbnail_cache_summary">갤러리 탐색시 생성된 썸네일 이미지를 지워 공간을 확보합니다.</string>
 	<string name="sync_album_summary">사진과 스크린샷을 MiCloud 앨범에 업로드하기</string>
+	
+	<string name="share_album">앨범 공유</string>
 
 </resources>
