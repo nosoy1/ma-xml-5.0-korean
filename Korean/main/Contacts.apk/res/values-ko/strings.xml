@@ -697,4 +697,6 @@
   <string name="pref_key_rebuild_t9_index_title">T9 색인 데이터 재생성</string>
   
   <string name="hint_search_phone_numbers">%d 개의 연락처 전화번호</string>
+  
+   <string name="recent">최근</string>
 </resources>
