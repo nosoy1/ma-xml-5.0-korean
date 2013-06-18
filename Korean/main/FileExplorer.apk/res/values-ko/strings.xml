@@ -207,8 +207,8 @@
   <string name="restart_cleaning">재시작</string>
   <string name="scanning" formatted="false">%d 개 어플 검색중. (전체 : %d개의 어플)</string>
   <string name="scanning_on_going">검색중....</string>
-  <string name="sd_card_available">사용 가능한 공간: <xliff:g id="available_size">%1$s</xliff:g></string>
-  <string name="sd_card_size">SD 카드: <xliff:g id="total_size">%1$s</xliff:g></string>
+  <string name="sd_card_available">사용 가능한 공간: %1$s</string>
+  <string name="sd_card_size">SD 카드: %1$s</string>
   <string name="sd_full">SD 카드 가득참</string>
   <string name="sd_size_label">SD 카드 저장소</string>
   <string name="search_hint">파일 검색</string>
