@@ -18,6 +18,13 @@
         <item>home_edit_box_area_4_3</item>
         <item>home_edit_box_area_4_4</item>
     </string-array>
+        <array name="item_shake_animation_scaler">
+        <item>0.0dip</item>
+        <item>-4.0dip</item>
+        <item>2.0dip</item>
+        <item>-1.0dip</item>
+        <item>0.0dip</item>
+    </array>
     <string-array name="transformation_entries">
         <item>기본</item>
         <item>기본(튕김효과 없음)</item>
@@ -45,10 +52,32 @@
         <item>오른쪽</item>
     </string-array>
     <string-array name="wallpaper_scroll_values">
-        <item>byTheme</item>
-        <item>center</item>
-        <item>left</item>
-        <item>right</item>
+        <item>테마 설정 따름</item>
+        <item>중앙</item>
+        <item>왼쪽</item>
+        <item>오른쪽</item>
+    </string-array>
+	    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+        <item>5x5</item>
+        <item>5x6</item>
+        <item>6x5</item>
+        <item>6x6</item>
+        <item>6x7</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+        <item>5x5</item>
+        <item>5x6</item>
+        <item>6x5</item>
+        <item>6x6</item>
+        <item>6x7</item>
+    </string-array>
+	    <string-array name="gadget_weather_theme_type_entries">
+        <item>기본값</item>
+        <item>클래식</item>
     </string-array>
     <string-array name="gadget_weather_image">
         <item>맑음</item>
