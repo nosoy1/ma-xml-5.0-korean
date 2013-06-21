@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="Parse_error_dlg_text" msgid="1440309982917966479">"패키지를 구문 분석하는 중 문제가 발생했습니다."</string>
-  <string name="Parse_error_dlg_title" msgid="6079580916889596257">"구문분석 오류"</string>
   <string name="allow_source_dlg_text">"%1$s (이)가 다른 어플을 설치할려고 합니다. 허용하시겠습니까?"</string>
   <string name="allow_source_dlg_title">새 소스를 허용하시겠습니까?</string>
   <string name="app_name">패키지 인스톨러</string>
@@ -11,6 +9,7 @@
   <string name="caller_app">설치 요청: %1$s</string>
   <string name="cancel">취소</string>
   <string name="dlg_app_replacement_statement">"설치 중인 애플리케이션이 다른 애플리케이션을 대체합니다."\n\n"이전의 모든 사용자 데이터는 저장됩니다."</string>
+    <string name="dlg_app_replacement_statement_with_version">"%1$s (%2$s) 이 현제 버전을 (%3$s) 을 대체합니다. 사용자 설정은 유지됩니다 설치하시겠습니까?"</string>
   <string name="dlg_app_replacement_title">애플리케이션 교체</string>
   <string name="dlg_ok">확인</string>
   <string name="dlg_sys_app_replacement_statement">"시스템 애플리케이션입니다. 그래도 바꾸시겠습니까?"\n\n"이전의 사용자 데이터는 모두 저장됩니다."</string>
@@ -38,6 +37,8 @@
   <string name="other_relative">기타 권한</string>
   <string name="out_of_space_dlg_text">%1$s (이)가 설치되지 않았습니다. 여유공간을 확보하세요</string>
   <string name="out_of_space_dlg_title">저장공간 없음</string>
+  <string name="Parse_error_dlg_text" msgid="1440309982917966479">"패키지를 구문 분석하는 중 문제가 발생했습니다."</string>
+  <string name="Parse_error_dlg_title" msgid="6079580916889596257">"구문분석 오류"</string>
   <string name="perm_action_accept">동의</string>
   <string name="perm_action_prompt">묻기</string>
   <string name="perm_action_reject">거부</string>
