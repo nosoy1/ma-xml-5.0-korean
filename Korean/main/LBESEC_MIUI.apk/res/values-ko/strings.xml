@@ -10,7 +10,7 @@
     <string name="Dashboard_Perm">권한</string>
     <string name="Dashboard_Perm_AutoStart">앱 자동실행 관리</string>
     <string name="Dashboard_Perm_AutoStart_Desc">앱의 자동실행 여부를 설정합니다.</string>
-    <string name="Dashboard_Perm_AutoStart_Switch">자동실행 관리자</string>
+ 	<string name="Dashboard_Perm_AutoStart_Switch">자동실행 관리자</string>
     <string name="Dashboard_Perm_Header">%1$d개의 앱 감시중</string>
     <string name="Dashboard_Perm_Header_Disabled">권한 감시 기능이 비활성화 되었습니다.</string>
     <string name="Dashboard_Perm_HIPS">앱 권한 관리</string>
@@ -183,6 +183,6 @@
     <string name="Su_Unavailable">MIUI 안정 버전에서는 ROOT 권한을 사용할 수 없습니다.  ROOT 권한을 활성화 하시려면 MIUI 개발 버전을 설치하시기 바랍니다.</string>
     <string name="SysOpt_Boost_AutoStart">자동실행 권한</string>
     <string name="SysOpt_Boost_AutoStart_Group">자동실행</string>
-	 <string name="SysOpt_Boost_Boot">부팅</string>
+	<string name="SysOpt_Boost_Boot">부팅</string>
     <string name="SysOpt_Boost_Receiver">백그라운드</string>
 </resources>

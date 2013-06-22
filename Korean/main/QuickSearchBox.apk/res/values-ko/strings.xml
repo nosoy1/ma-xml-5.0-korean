@@ -28,8 +28,6 @@
   <string name="menu_settings">검색 설정</string>
   <string name="remove_from_history">검색기록 제거</string>
   <string name="remove_from_history_failed">"삭제할 수 없습니다."</string>
-  <string name="search_in_app_store">마켓 검색</string>
-  <string name="search_in_web">웹 검색</string>
   <string name="search_settings">검색 설정</string>
   <string name="search_sources">검색가능한것</string>
   <string name="search_sources_summary">휴대전화에서 무엇을 검색할지 고릅니다.</string>

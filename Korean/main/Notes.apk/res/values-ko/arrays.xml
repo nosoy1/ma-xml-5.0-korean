@@ -7,7 +7,7 @@
         <item>--%s</item>     <!-- format_note_date -->
         <item>--%s</item>     <!-- format_note_content -->
     </string-array>
-        <string-array name="font_size_names">
+	    <string-array name="font_size_names">
         <item>작게</item>
         <item>기본</item>
         <item>크게</item>

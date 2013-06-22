@@ -100,7 +100,7 @@
     <string name="ext_media_safe_unmount_notification_message">안전하게 SD카드를 제거할 수 있습니다.</string>
     <string name="ext_media_safe_unmount_notification_title">SD카드 제거 가능</string>
     <string name="ext_media_unmountable_notification_message">SD카드가 손상되었습니다. 포맷해야 사용 가능합니다.</string>
-    <string name="ext_media_unmountable_notification_title">손상된 USB 저장소</string>
+    <string name="ext_media_unmountable_notification_title">손상된 SD 카드</string>
     <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
     <string name="gps_notification_found_text">GPS로부터 위치 확인 됨</string>
     <string name="gps_notification_searching_text">GPS 찾는 중</string>
@@ -268,7 +268,7 @@
     <string name="usb_mode_notification">USB 저장소</string>
     <string name="usb_mtp_text">파일</string>
     <string name="usb_notification">USB 로 연결됨</string>
-    <string name="usb_notification_mtp_info">컴퓨터를통해 모바일 파일 접근</string>
+    <string name="usb_notification_mtp_info">컴퓨터를 통해 내부 저장소 접근</string>
     <string name="usb_notification_mtp_problem">도움말</string>
 	<string name="usb_notification_mtp_ticker_text">USB 연결됨 (파일 모드)</string>
     <string name="usb_notification_ptp_info">컴퓨터를 통해 사진 접근</string>

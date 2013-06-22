@@ -35,7 +35,7 @@
   <string name="clock_instructions">시계를 고르세요</string>
   <string name="close_alarm">알람 닫기</string>
   <string name="common_settings">기본적인 설정</string>
-  <string name="confirm_abort">Discard</string>
+  <string name="confirm_abort">삭제</string>
   <string name="control_set_alarm">알람 설정</string>
   <string name="control_set_alarm_with_existing">알람 선택: %s</string>
   <string name="day">1일</string>

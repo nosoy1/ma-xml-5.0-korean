@@ -2,15 +2,22 @@
 <resources>
   <string name="continues">계속</string>
   <string name="data_usage_summary">데이터 무제한 요금제가 아니라면, 데이터를 해제하거나 제한하는 것이 좋습니다. 그렇지 않으면 추가요금이 부과될 수 있습니다.</string>
+  <string name="default_gprs_sim_name">\"%s\" 데이터 사용제한 용량을 입력해주세요</string>
   <string name="input_method">입력 방법</string>
   <string name="input_method_category">기본 입력기 사용</string>
   <string name="next">다음</string>
+  <string name="other_service_google_location">구글 위치 서비스</string>
+  <string name="other_service_google_location_use">위치 &amp; 구글 검색</string>
+  <string name="other_service_google_location_use_help">"Google의 위치 서비스에서 익명의 위치 정보를 수집 할 수 있습니다. 어떤 응용 프로그램은 실행되지 않는 경우에도 수집이 발생합니다. 설정 &gt; 위치 서비스"</string>
+  <string name="other_service_google_location_use_summary">구글 검색 결과 및 기타 서비스 향상을 위해 귀하의 위치를 사용합니다.</string>
   <string name="other_service_label">기타 서비스</string>
   <string name="other_service_location">위치 서비스</string>
   <string name="other_service_location_summary">위치 서비스는 GPS를 이용하여 위치기반 어플에 정보를 제공합니다.</string>
+  <string name="other_service_permission_manager">어플 권한 관리</string>
+  <string name="other_service_permission_manager_summary">보안 및 개인 정보 보호를 위해 어플 모니터링</string>
   <string name="other_service_user_experience">사용자 경험 프로그램</string>
   <string name="other_service_user_experience_summary0">"이 롬을 사용하고 피드백을 제출함으로써 더 좋은 서비스를 제공할 수 있습니다."</string>
-  <string name="other_service_user_experience_summary1">MIUI 팀에게 감사합니다. </string>
+  <string name="other_service_user_experience_summary1"> 개인 보안정보</string>
   <string name="setup_complete_info">이 시스템은 휴대폰 최초 사용 시각을 기록합니다.</string>
   <string name="setup_complete_label">설치 완료</string>
   <string name="setup_complete_start">사용 시작</string>

@@ -18,7 +18,7 @@
         <item>home_edit_box_area_4_3</item>
         <item>home_edit_box_area_4_4</item>
     </string-array>
-        <array name="item_shake_animation_scaler">
+	    <array name="item_shake_animation_scaler">
         <item>0.0dip</item>
         <item>-4.0dip</item>
         <item>2.0dip</item>
