@@ -300,7 +300,7 @@
   <string name="processing">처리 중.....</string>
   <string name="prvate_contact">개인 연락처</string>
   <string name="rate_limit_surpassed">확인</string>
-  <string name="received_label">"수신전화: "</string>
+  <string name="received_label">"수신 시간: "</string>
   <string name="recipient_editor_count_format">%d명</string>
   <string name="recipient_label">"받는 사람: "</string>
   <string name="refresh">새로고침</string>
@@ -342,7 +342,7 @@
   <string name="send_to">To: %1$s</string>
   <string name="send_to_count">%1$s 메시지 보냄</string>
   <string name="send_to_index_contact">%1$s of %2$s 보내는 중...</string>
-  <string name="sent_label">"보낸편지함: "</string>
+  <string name="sent_label">"보낸 시간: "</string>
   <string name="service_message_not_found">메시지가 만료되었거나 사용 불가능합니다.</string>
   <string name="service_network_problem">네트워크 오류</string>
   <string name="service_not_activated">네트워크에서 서비스가 활성화되지 않았습니다.</string>

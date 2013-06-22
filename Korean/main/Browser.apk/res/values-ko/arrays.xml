@@ -6,9 +6,6 @@
         <item>사용 안함</item>
     </string-array>
     <string-array name="pref_homepage_choices">
-        <item>현재 페이지</item>
-        <item>MIUI 홈</item>
-        <item>빈 페이지</item>
         <item>기본 페이지</item>
         <item>자주 방문한 페이지</item>
         <item>기타</item>
@@ -40,40 +37,6 @@
         <item>Wi-Fi 연결 시</item>
         <item>항상</item>
     </string-array>
-    <string-array name="bookmarks">
-        <item>구글</item>
-        <item>http://www.google.co.kr/</item>
-        <item>다음</item>
-        <item>http://www.daum.net/</item>
-        <item>네이버</item>
-        <item>http://www.naver.com/</item>
-        <item>트위터</item>
-        <item>http://twitter.com/</item>
-        <item>페이스북</item>
-        <item>http://www.facebook.com/</item>
-        <item>위키백과</item>
-        <item>http://ko.wikipedia.org/</item>
-    </string-array>
-    <array name="bookmark_preloads">
-        <item>@raw/favicon_google</item>
-        <item>@raw/thumb_google</item>
-        <item>@raw/favicon_daum</item>
-        <item>@raw/thumb_daum</item>
-        <item>@raw/favicon_naver</item>
-        <item>@raw/thumb_naver</item>
-        <item>@raw/favicon_twitter</item>
-        <item>@raw/thumb_twitter</item>
-        <item>@raw/favicon_facebook</item>
-        <item>@raw/thumb_facebook</item>
-        <item>@raw/favicon_wikipedia</item>
-        <item>@raw/thumb_wikipedia</item>
-    </array>
-    <string-array name="search_engines">
-        <item>google</item>
-        <item>daum</item>
-        <item>naver</item>
-        <item>yahoo</item>
-    </string-array>
     <string-array name="pref_volume_key_choices">
         <item>페이지 위/아래 스크롤</item>
         <item>탭 전환</item>
@@ -81,5 +44,10 @@
     <string-array name="pref_fling_on_border_choices">
         <item>페이지 뒤로/앞으로</item>
         <item>탭 전환</item>
+    </string-array>
+    <string-array name="pref_images_preload_choices">
+        <item>안함</item>
+        <item>스마트</item>
+        <item>항상</item>
     </string-array>
 </resources>
