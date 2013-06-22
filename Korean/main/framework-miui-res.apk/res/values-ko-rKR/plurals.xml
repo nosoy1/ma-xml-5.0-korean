@@ -8,7 +8,7 @@
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30분 </item>
-    </plurals>전
+    </plurals>
     <plurals name="abbrev_in_a_hour">
         <item quantity="other">한시간</item>
     </plurals>
