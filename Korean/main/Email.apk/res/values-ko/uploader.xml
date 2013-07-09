@@ -125,7 +125,7 @@
     <string name="preference_plus_delay_sync_until_charging_summary" msgid="8613924819421248445">"충전할 때만 사진과 동영상 업로드"</string>
     <string name="preference_plus_sync_all" msgid="2563137874388611459">"기존 사진 업로드"</string>
     <string name="preference_plus_sync_all_description" msgid="2789041515679642463">"지금 휴대전화에서 기존 사진 및 동영상 업로드"</string>
-    <string name="summary_subtitle_disabled" msgid="8964378166312900703">"사용중지됨"</string>
+    <string name="summary_subtitle_disabled" msgid="8964378166312900703">"사용 중지됨"</string>
     <string name="preference_summary_header_format" msgid="8850267704647137239">"%1$s: %2$s"</string>
     <string name="preference_summary_uploading_percent" msgid="3266958005329832043">"업로드 중(%1$d%%)"</string>
     <string name="preference_summary_uploading_format" msgid="6092575579212954671">": %1$d/%2$d"</string>

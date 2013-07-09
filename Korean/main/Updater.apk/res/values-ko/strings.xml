@@ -73,7 +73,7 @@
   <string name="emegency_build">빌드:</string>
   <string name="wifi_not_available_title">Wi-Fi로 연결되지 않음</string>
   <string name="wifi_not_available_body">ROM 파일을 다운로드할 때 데이터 통화료가 많이 나올 수 있으므로 Wi-Fi로 다운로드 하는 것을 권장합니다. 계속하시겠습니까?</string>
-  <string name="boot_recovery">복구 모드로 재부팅</string>
+  <string name="boot_recovery">복구 모드로 다시 시작</string>
   <string name="applying_rom_message">ROM 설치 중</string>
   <string name="loading">MIUI 서버에 접속 중</string>
   <string name="install_rom_from_sd">ROM 설치 선택</string>
@@ -81,15 +81,15 @@
   <string name="no_proper_updates">현재 설치된 버전의 업데이트를 찾을 수 없음</string>
   <string name="emegency_update_helper">업데이트 설치 후 기기를 다시 시작해야 합니다.</string>
   <string name="emegency_update_size">크기: <xliff:g id="SIZE">%s</xliff:g></string>
-  <string name="sign_in_info">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용중입니다."</string>
-  <string name="sign_in_info_total_more">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명 이상의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용중입니다."</string>
-  <string name="sign_in_info_rank_more">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명 이상의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용중입니다."</string>
+  <string name="sign_in_info">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용 중입니다."</string>
+  <string name="sign_in_info_total_more">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명 이상의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용 중입니다."</string>
+  <string name="sign_in_info_rank_more">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명 이상의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용 중입니다."</string>
   <string name="sign_in_add_account_helper">MIUI 계정 정보가 없습니다. 계정을 추가하여 사용자 포인트를 받으세요.</string>
   <string name="my_rank">"업데이트 랭킹:"</string>
 
   <string name="move_data_to_sdcard_title">SD 카드로 데이터 이동</string>
   <string name="move_data_to_sdcard_not_enough_space_message">SD 카드 용량이 부족합니다. 데이터를 SD 카드로 이동하려면 약 <xliff:g id="SIZE">%d</xliff:g>MB가 필요합니다.</string>
-  <string name="moving_data_to_sdcard_message">데이터가 SD 카드로 이동중입니다. USB 모드를 켜거나 SD카드를 제거하지 말아주세요.</string>
+  <string name="moving_data_to_sdcard_message">데이터가 SD 카드로 이동중입니다. USB 모드를 켜거나 SD 카드를 제거하지 말아주세요.</string>
   <string name="moving_data_to_sdcard_progress_format"><xliff:g id="PROGRESS">%1$d</xliff:g>dKb중 <xliff:g id="TOTAL">%2$d</xliff:g>Kb 이동됨</string>
   <string name="finish_download">다운로드 완료</string>
   <string name="install_whole_rom">전체 ROM 다운로드를 권장합니다.</string>

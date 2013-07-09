@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">샤오미 동기화</string>
+    <string name="app_name">Xiaomi 동기화</string>
     <string name="sync_item_sms_title">SMS 동기화</string>
-    <string name="sync_item_sms_summary">문자메시지가 동기화 된 후 전원을 켭니다.</string>
+    <string name="sync_item_sms_summary">문자 메시지가 동기화 된 후 전원을 켭니다.</string>
     <string name="sub_sync_item_sms_title_wifi_only">Wi-Fi 상태에서만 MMS동기화</string>
     <string name="sub_sync_item_sms_summary">Wi-Fi를 사용하셔야 합니다. 그렇지 않으면 데이터 요금이 증가됩니다.</string>
     <string name="pref_title_sync_contacts_title">연락처 동기화</string>
