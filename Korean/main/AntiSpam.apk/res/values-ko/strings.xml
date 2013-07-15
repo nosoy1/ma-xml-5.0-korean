@@ -129,7 +129,7 @@
 	<string name="remove_delete">삭제</string>
 	<string name="remove_inf">선택한 정보를 삭제 하시겠습니까?</string>
 	<string name="remove_keyword">이 키워드를 삭제하시겠습니까?</string>
-	<string name="remove_sms">모든 메시지 기록을 삭제 하시겠습니까?</string>
+	<string name="remove_sms">모든 메세지 기록을 삭제 하시겠습니까?</string>
     <string name="save_button">저장</string>
     <string name="show_firewall_notification">상태표시줄에 항상 보임</string>
     <string name="show_notification">차단 시 알림</string>

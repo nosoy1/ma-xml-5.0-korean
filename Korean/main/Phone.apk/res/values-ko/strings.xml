@@ -30,7 +30,7 @@
     <string name="autoip_miui">자동 IP 다이얼</string>
     <string name="auto_ip_setting_miui">자동 IP 설정</string>
     <string name="autoip_sum_miui">외국 번호에 IP 접두어를 저동으로 붙입니다. 아래에 현재 위치의 지역코드를 입력하세요.</string>
-    <string name="auto_record_call_summary_miui">통화가 시작되면 자동으로 녹음을 시작하고 SD 카드의 MIUI/sound_recorder/call_rec 폴더에 저장합니다.</string>
+    <string name="auto_record_call_summary_miui">통화가 시작되면 자동으로 녹음을 시작하고 SD카드의 MIUI/sound_recorder/call_rec 폴더에 저장합니다.</string>
     <string name="auto_record_call_title_miui">수동 녹음</string>
     <string name="auto_redial_pref_summary_miui">전화가 바쁠 자동으로 다시 전화를 겁니다.</string>
     <string name="auto_redial_pref_title_miui">자동 재다이얼</string>
@@ -54,12 +54,12 @@
     <string name="call_recording_prompt_miui">통화 녹음</string>
     <string name="call_record_notification_message_low_space_miui">용량이 부족하여 녹음이 중단되었습니다. %s를 보려면 터치하세요.</string>
     <string name="call_record_notification_message_miui">%s를 보려면 터치하세요.</string>
-    <string name="call_record_notification_message_sd_unmounted_miui">SD 카드 연결이 해제되어 통화녹음이 중지되었습니다.</string>
+    <string name="call_record_notification_message_sd_unmounted_miui">SD카드 연결이 해제되어 통화녹음이 중지되었습니다.</string>
     <string name="call_record_notification_title_error_miui">통화 녹음 실패</string>
     <string name="call_record_notification_title_miui">통화 녹음 성공</string>
     <string name="call_record_sample_prefix_miui">MIUI_Recording</string>
-    <string name="call_record_sd_error_miui">SD 카드 접근 에러!</string>
-    <string name="call_record_sd_space_low_miui">SD 카드의 용량이 꽉 찼습니다. 파일을 좀 삭제한 후 다시 시도하세요.</string>
+    <string name="call_record_sd_error_miui">SD카드 접근 에러!</string>
+    <string name="call_record_sd_space_low_miui">SD카드의 용량이 꽉 찼습니다. 파일을 좀 삭제한 후 다시 시도하세요.</string>
     <string name="call_settings_category_miui">통화 설정</string>
     <string name="call_settings_miui">통화 설정</string>
     <string name="call_title_redialing_with_times_miui">%d번째 재시도 중</string>
@@ -92,7 +92,7 @@
     <string name="command_error_sms_fail_retry_miui">SMS 전송 실패, 잠시후 다시 시도해주세요.</string>
     <string name="command_error_unsupported_mode_miui">선택한 네트워크 유형은 지원되지 않습니다.</string>
     <string name="command_error_unsupported_request_miui">이 작업은 지원되지 않습니다.</string>
-    <string name="confirm_delete_message_title_miui">사용자 속성 메시지를 삭제하시겠습니까?</string>
+    <string name="confirm_delete_message_title_miui">사용자 속성 메세지를 삭제하시겠습니까?</string>
     <string name="confirm_pin2_hint_miui">새 PIN2 확인C</string>
     <string name="confirm_pin_hint_miui">새 PIN 확인</string>
     <string name="connect_disconnect_vibrate_none_miui">진동 없음</string>
@@ -225,7 +225,7 @@
     <string name="preferred_network_type_pref_entries_only_2g_miui">2G만 (전원 절약)</string>
     <string name="preferred_network_type_pref_entries_only_3g_miui">3G만</string>
     <string name="preferred_network_type_pref_entries_global_miui">전세계</string>
-    <string name="preferred_network_type_3g_only_warning_miui">네트워크 유형으로 "3G만" 을 선택했습니다. SIM 카드에 3G 기능이 없을 경우 통화가 불가능해 질 것입니다!\n확인 버튼을 눌러 계속할 수 있습니다.</string>
+    <string name="preferred_network_type_3g_only_warning_miui">네트워크 유형으로 "3G만" 을 선택했습니다. SIM카드에 3G 기능이 없을 경우 통화가 불가능해 질 것입니다!\n확인 버튼을 눌러 계속할 수 있습니다.</string>
     <string name="preferred_network_type_cdma_miui">CDMA</string>
     <string name="preferred_network_type_gsm_umts_miui">GSM/WCDMA</string>
     <string name="preferred_network_type_title_miui">네트워크 유형 설정</string>
@@ -294,7 +294,7 @@
     <string name="simContacts_emptyLoading">SIM 카드 읽는 중...</string>
     <string name="simContacts_empty">SIM 카드에 연락처가 없습니다.</string>
     <string name="simContacts_title">가져올 연락처를 선택하세요.</string>
-    <string name="simContacts_airplaneMode">SIM 카드에서 연락처를 가져오기 위해선 비행기 모드를 꺼주세요.</string>
+    <string name="simContacts_airplaneMode">SIM 카드에서 연락처를 가져오기 위해선 비행 모드를 꺼주세요.</string>
     <string name="menu_add">연락처 추가</string>
     <string name="menu_edit">연락처 편집</string>
     <string name="menu_delete">연락처 삭제</string>
@@ -316,7 +316,7 @@
     <string name="messageCFB">바쁠때 착신 번호</string>
     <string name="call_log_number_limit_summary_miui">호율성을 위해 통화기록 보관 갯수를 제한</string>
  		<string name="label_available">사용 가능 네트워크</string>
-    <string name="load_networks_progress">검색중...</string>
+    <string name="load_networks_progress">검색중…</string>
     <string name="empty_networks_list">네트워크를 찾을 수 없습니다.</string>
     <string name="search_networks">네트워크 검색</string>
     <string name="network_query_error">네트워크 검색 중 문제가 발생했습니다.</string>
@@ -353,7 +353,7 @@
   <string name="cdma_display_precise_call_state_message_miui">만약 통신사에서 이 기능을 지원하지 않는다면 통화 상태가 제대로 표시되지 않을 수도 있습니다. 정말로 여시겠습니까?</string>
   <string name="cdma_display_precise_call_state_summary_miui">CDMA 전화 타이머는 통신사에서 제한하고 있습니다. 만약 통신사에서 지원한다면 통화 상테가 정확하게 표시될 것입니다.</string>
   <string name="cdma_display_precise_call_state_title_miui">정확한 통화 상태 표시</string>
-  <string name="incall_screen_background_summary_miui">"연락처 사진이 없을 경우 잠금 화면 배경 사용"</string>
+  <string name="incall_screen_background_summary_miui">"연락처 사진이 없을 경우 잠금화면 배경 사용"</string>
   <string name="incall_screen_background_title_miui">통화 배경화면 설정</string>
   <string name="reject_via_sms_miui">통화 거절시 SMS 발송</string>
   <string name="reject_via_sms_summary_miui">통화를 거절했을때 발신자에게 SMS를 보낼 수 있습니다.</string>
@@ -376,7 +376,7 @@
   <string name="turn_off_auto_select_warning_message_miui">이 옵션을 끄면 수동으로 설정한 네트워크 외의 다른 네트워크에 자동으로 접속하지 않습니다.</string>
   <string name="turn_off_miui">끄기</string>
   
-  <string name="delete_all_sim_contacts_miui">모든 SIM 카드 연락처 삭제</string>
+  <string name="delete_all_sim_contacts_miui">모든 SIM카드 연락처 삭제</string>
   
   <string name="auto_record_scenario_enteries_always_miui">모든 번호에 대해 자동 통화녹음</string>
   <string name="auto_record_scenario_enteries_whitelist_miui">자동으로 통화녹음할 번호 지정</string>
@@ -401,5 +401,5 @@
   <string name="t9_indexing_method_pinyin">PinYin</string>
   <string name="t9_indexing_method_title_miui">T9 검색 설정</string>
   <string name="t9_indexing_method_zhuyin">ZhuYin</string>
-  <string name="t9_indexing_rebuilding_message">T9 인덱스 재생성 중...</string>
+  <string name="t9_indexing_rebuilding_message">T9 인덱스 재생성 중…</string>
 </resources>

@@ -45,7 +45,7 @@
   <string name="confirm">확인</string>
   <string name="confirm_know">확인</string>
   <string name="copy_failed">복사 실패</string>
-  <string name="create_kuaipan_shortcut_pref">홈 화면에 바로가기 만들기</string>
+  <string name="create_kuaipan_shortcut_pref">홈화면에 바로가기 만들기</string>
   <string name="create_new_folder_failed">%1$s 폴더 생성에 실패했습니다.</string>
   <string name="create_new_folder_succeeded">%1$s폴더를 성공적으로 만들었습니다.</string>
   <string name="create_share_link_description">공유 링크 만들기...</string>
@@ -76,7 +76,7 @@
   <string name="download_current_progress">%1$d/100</string>
   <string name="download_failed">다운로드 실패!</string>
   <string name="download_link_completed">%1$s 개를 공유했습니다. 확인하려면 아래를 누르세요</string>
-  <string name="downloading">다운로드중...</string>
+  <string name="downloading">다운로드중…</string>
   <string name="empty_dir_cleanup_indication">%s개 쓸모없는 파일</string>
   <string name="empty_dir_title">비어있는 폴더들</string>
   <string name="enable_sd_card">SD 카드 데이터가 존재하지 않거나, 사용 중입니다.</string>
@@ -112,7 +112,7 @@
   <string name="garbage_item_name_format" formatted="false">%s ( %s )</string>
   <string name="garbage_item_path_format" formatted="false">%s %s</string>
   <string name="garbage_size_metric">"쓸모없는 %s"</string>
-  <string name="gbk_summary">GBK 인코딩을 사용 중이면, e.g. Windows Explorer, choose this type of encoding to avoid garbled Chinese text</string>
+  <string name="gbk_summary">GBK 인코딩을 사용중이면, e.g. Windows Explorer, choose this type of encoding to avoid garbled Chinese text</string>
   <string name="gbk_title">GBK</string>
   <string name="give_up_cleaning">정리 취소</string>
   <string name="header_text_cleaned">쓸모없는것 삭제됨</string>
@@ -127,7 +127,7 @@
   <string name="kuaipan_prompt_message">"현제 서버를 사용할 수 없습니다. 잠시후에 다시 시도해주세요"</string>
   <string name="kuaipan_tech_support">Xiaomi에서 제공하는 기술 지원</string>
   <string name="load_err">로딩 실패</string>
-  <string name="loading">로딩중...</string>
+  <string name="loading">로딩중…</string>
   <string name="local_cache_size">로컬 캐쉬 크기: %s</string>
   <string name="login_reg_content">MiDrive는 여러 기기 사이의 파일 동기화를 도와줍니다.</string>
   <string name="login_reg_content0">MiDrive는 클라우드 스토리지 드라이브 입니다.</string>
@@ -202,7 +202,7 @@
   <string name="pan_settting">MiDrive 설정</string>
   <string name="paused">일시 정지됨</string>
   <string name="query_bind_state">연결 상태 확인중, 잠시만 기다려주세요...</string>
-  <string name="rename_description">이름 바꾸는중, 잠시만 기다려주세요...</string>
+  <string name="rename_description">이름 바꾸는중, 잠시만 기다려주세요…</string>
   <string name="rename_failed">이름변경하기 《%1$s》실패</string>
   <string name="restart_cleaning">재시작</string>
   <string name="scanning" formatted="false">%d 개 어플 검색중. (전체 : %d개의 어플)</string>
@@ -272,7 +272,7 @@
   <string name="utf8_title">UTF-8</string>
   <string name="version_text">버전 %1$s</string>
   <string name="wait_net">네트워크 대기</string>
-  <string name="wait_sdcard">SD 카드 마운트 대기중</string>
+  <string name="wait_sdcard">SD카드 마운트 대기중</string>
   <string name="wait_wifi">Wi-Fi 연결 대기중</string>
   <string name="waiting">대기중...</string>
   <string name="waiting_for_cleaning">정리 대기중</string>

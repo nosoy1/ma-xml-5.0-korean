@@ -9,7 +9,7 @@
     <string name="adjust_position_next_media_notice">다음</string>
     <string name="adjust_position_prev_media_notice">이전</string>
     <string name="airkan_control_device_des">아래 버튼으로 영상 재생을 제어할 수 있습니다.</string>
-    <string name="airkan_device_xiaomi_phone">Xiaomi</string>
+    <string name="airkan_device_xiaomi_phone">샤오미</string>
     <string name="airkan_video_playing"/>
 	<string name="airkan_video_playing_in">동영상 재생 중...</string>
     <string name="app_name">동영상 재생기</string>

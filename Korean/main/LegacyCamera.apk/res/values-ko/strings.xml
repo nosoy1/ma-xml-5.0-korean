@@ -104,7 +104,7 @@
     <string name="effect_backdropper_gallery">직접 선택</string>
     <string name="bg_replacement_message">"기기를 내려놓고
 잠시동안 시야에서 벗어나세요."</string>
-    <string name="not_selectable_in_effect">효과를 사용 중일땐 선택할 수 없습니다.</string>
+    <string name="not_selectable_in_effect">효과를 사용중일땐 선택할 수 없습니다.</string>
     <string name="video_snapshot_hint">동영상 촬영중 화면을 터치하여 사진을 찍을 수 없습니다.</string>
     <string name="disable_video_snapshot_hint">녹화중 촬영 기능은 특수효과와 동시에 쓸 수 없습니다.</string>
     <string name="clear_effects">효과 지우기</string>
