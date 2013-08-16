@@ -478,4 +478,14 @@
     <string name="winter_begins">입동</string>
     <string name="winter_solstice">동지</string>
   <string name="yesterday">어제</string>
+  
+  <string-array name="detailed_am_pm_names">
+        <item>오전</item>
+        <item>오전</item>
+        <item>오전</item>
+        <item>오후</item>
+        <item>오후</item>
+        <item>오후</item>
+        <item>오후</item>
+    </string-array>
   </resources>
