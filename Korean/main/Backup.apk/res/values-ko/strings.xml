@@ -32,7 +32,7 @@
     <string name="restore_report">복구 보고서</string>
     <string name="restore_progress">복구중...</string>
     <string name="restore_contacts_hit">(주의: 주소록을 복구하기 전에 이전 계정을 등록해야 합니다.)</string>
-    <string name="restore_telephony_hit">(주의: 이 복구작업은 '전화'어플을 재시작시킵니다.)</string>
+    <string name="restore_telephony_hit">"(주의: 이 복구작업은 '전화'어플을 재시작시킵니다.)"</string>
     <string name="restore_launcher_layout_hit">(주의: 런처 레이아웃을 복구합니다.)</string>
     <string name="settings_summary">통화 기록과 메시지를 복구합니다.</string>
     <string name="account_summary">지메일,이메일,샤오미 계정을 복구합니다.</string>
