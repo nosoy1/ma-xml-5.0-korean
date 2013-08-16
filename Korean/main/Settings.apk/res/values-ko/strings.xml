@@ -2020,4 +2020,6 @@
 	 <string name="device_name_input_hint">휴대전화 이름을 입력하세요</string>
 	 
 	 <string name="wifi_enable">Wi-Fi 켜기</string>
+	 
+
 </resources>

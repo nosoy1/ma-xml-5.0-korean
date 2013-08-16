@@ -402,4 +402,23 @@
   <string name="t9_indexing_method_title_miui">T9 검색 설정</string>
   <string name="t9_indexing_method_zhuyin">ZhuYin</string>
   <string name="t9_indexing_rebuilding_message">T9 인덱스 재생성 중…</string>
+  
+  
+   <string name="notification_action_end_call">전화 끊기</string>
+  <string name="notification_incoming_call">Incoming call</string>
+  <string name="notification_missedCallTicker"> %s의 부재중 전화</string>
+  <string name="notification_missedCallTitle">부재중 전화</string>
+  <string name="notification_missedCall_call_back">다시 걸기</string>
+  <string name="notification_missedCall_message">문자</string>
+  <string name="notification_missedCallsMsg">%s 부재중 전화</string>
+  <string name="notification_missedCallsTitle">부재중 전화</string>
+  <string name="notification_network_selection_text">선택된 네트워크(%s) 이(가) 사용불능 상태입니다.</string>
+  <string name="notification_network_selection_title">통화권 이탈</string>
+  <string name="notification_on_hold">보류</string>
+  <string name="notification_ongoing_call">발신 전화</string>
+  <string name="notification_ongoing_calling_format_miui">전화거는중 (%s)</string>
+  <string name="notification_voicemail_no_vm_number">번호를 알수 없는 음성메일</string>
+  <string name="notification_voicemail_text_format">다이얼 %s</string>
+  <string name="notification_voicemail_title">새 음성메일</string>
+  <string name="notification_voicemail_title_count">새 음성메일 (%d)</string>
 </resources>
