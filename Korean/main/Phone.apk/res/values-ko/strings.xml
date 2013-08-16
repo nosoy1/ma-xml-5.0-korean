@@ -179,7 +179,6 @@
     <string name="new_pin2_hint_miui">새 PIN2</string>
     <string name="new_pin_hint_miui">새 PIN</string>
     <string name="not_connected_miui">연결 안됨</string>
-    <string name="notification_ongoing_calling_format_miui">통화중 (%s)</string>
     <string name="number_format_error_message_miui">%s 는 번호만 입력할 수 있습니다.</string>
     <string name="number_type_jituan_miui"> 그룹 번호</string>
     <string name="number_type_miui"> 번호 유형</string>
