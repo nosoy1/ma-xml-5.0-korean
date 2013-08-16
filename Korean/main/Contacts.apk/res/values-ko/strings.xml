@@ -699,4 +699,16 @@
   <string name="hint_search_phone_numbers">%d 개의 연락처 전화번호</string>
   
    <string name="recent">최근</string>
+   <string name="dialerIconLabel">최근</string>
+   
+    <string name="preference_simple_mode_title">심플 모드</string>
+	<string name="preference_simple_mode_description">아바타,속성,회사등을 표기하지 않습니다.</string>
+	<string name="pref_key_photo_word_title">연락처에 자동으로 사진 선택</string>
+	 <string name="pref_key_photo_word_summary">사진이 없을경우 자동으로 사진을 표기합니다.</string>
+	 <string name="preference_dial_pad_touch_tone_switch">다이얼패드 터치음</string>
+  <string name="preference_dial_pad_touch_tone_title">다이얼패드 터치음</string>
+   <string name="preference_dial_pad_touch_tone_default">기본</string>
+  <string name="preference_dial_pad_touch_tone_human">사람 육성</string>
+  <string name="preference_dial_pad_touch_tone_piano">피아노</string>
+
 </resources>

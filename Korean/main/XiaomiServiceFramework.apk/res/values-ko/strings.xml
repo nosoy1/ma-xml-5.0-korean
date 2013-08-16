@@ -111,4 +111,5 @@
 	<string name="skip_setup_account_msg">Xiaomi 계정을 설정하면 문자메세지, 연락처, 사진, 노트 등을 온라인으로 동기화 할 수 있습니다. 나중에 설정하시겠습니까?</string>
 	<string name="skip_setup_account_title">계정 설정 건너뛰기</string>
 	<string name="account_dspt">"Xiaomi 계정은 문자메세지, 연락처, 사진, 노트 등을 온라인으로 동기화 할 수 있습니다."</string>
+    <string name="skip_login">로그인 건너뛰기</string>
 </resources>
