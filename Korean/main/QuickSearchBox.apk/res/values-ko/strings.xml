@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">검색</string>
+  <string name="apps_search_activity"/>
+  <string name="clear_shortcuts">바로가기 삭제</string>
+  <string name="clear_shortcuts_agree">바로가기 삭제</string>
+  <string name="clear_shortcuts_disagree">"바로가기를 삭제하지 마세요"</string>
+  <string name="clear_shortcuts_prompt">"모든 사용기록을 삭제합니다."</string>
+  <string name="clear_shortcuts_summary">사용기록 삭제</string>
+  <string name="corpus_description_apps">설치된 어플리케이션의 이름</string>
+  <string name="corpus_description_web">웹,탐색 기록, 북마크 검색</string>
+  <string name="corpus_hint_apps">앱 검색</string>
+  <string name="corpus_label_apps">앱</string>
+  <string name="corpus_label_global">모두</string>
+  <string name="corpus_label_web">웹</string>
+  <string name="corpus_selection_heading">검색</string>
+  <string name="default_search_domain">.naver.com</string>
+  <string name="device_settings_category_title">바로가기 제거</string>
+  <string name="google_app_label">구글 검색</string>
+  <string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+  <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+  <string name="google_search_description">구글 검색 제안</string>
+  <string name="google_search_hint">구글 검색</string>
+  <string name="google_search_label">구글</string>
+  <string name="google_settings_category_title">구글 검색</string>
+  <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
+  <string name="menu_help">도움말</string>
+  <string name="menu_settings">검색 설정</string>
+  <string name="remove_from_history">검색기록 제거</string>
+  <string name="remove_from_history_failed">"삭제할 수 없습니다."</string>
+  <string name="search_settings">검색 설정</string>
+  <string name="search_sources">검색가능한것</string>
+  <string name="search_sources_summary">휴대전화에서 무엇을 검색할지 고릅니다.</string>
+  <string name="search_widget">검색</string>
+  <string name="system_search_category_title">휴대전화</string>
+  <string name="voice_search_hint_quotation_end">”</string>
+  <string name="voice_search_hint_quotation_start">“</string>
+  <string name="voice_search_hint_title">말하기로 시도:</string>
+</resources>
