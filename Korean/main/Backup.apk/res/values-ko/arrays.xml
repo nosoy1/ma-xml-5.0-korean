@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_dialog_content_type">
+        <item>Wi-Fi 데이터</item>
+        <item>모든 프로그램</item>
+    </string-array>
+    <string-array name="system_package_label">
+        <item>브라우저</item>
+        <item>파일 탐색기</item>
+        <item>갤러리</item>
+        <item>권한 관리</item>
+        <item>카메라</item>
+        <item>모니터</item>
+        <item>날씨 저장소</item>
+        <item>날씨</item>
+    </string-array>
+    <string-array name="system_data_label">
+        <item>주소록</item>
+        <item>통화기록</item>
+        <item>메시지</item>
+        <item>MMS</item>
+        <item>시스템 설정</item>
+        <item>Wi-Fi 설정</item>
+        <item>데스크톱 레이아웃</item>
+        <item>알람 설정</item>
+        <item>노트</item>
+        <item>DND</item>
+        <item>계정</item>
+    </string-array>
+    <string-array name="app_type_desc">
+        <item>데이터</item>
+        <item>프로그램</item>
+        <item>프로그램과 데이터</item>
+    </string-array>
+    <string-array name="cloud_data_label">
+        <item>주소록</item>
+        <item>통화 기록</item>
+        <item>메시지</item>
+        <item>Wi-Fi 설정</item>
+        <item>노트</item>
+    </string-array>
+    <string-array name="cloud_account_data">
+        <item>주소록</item>
+        <item>Wi-Fi 설정</item>
+        <item>노트</item>
+    </string-array>
+    <string-array name="cloud_sim_data">
+        <item>통화 기록</item>
+        <item>메시지</item>
+    </string-array>
+</resources>
