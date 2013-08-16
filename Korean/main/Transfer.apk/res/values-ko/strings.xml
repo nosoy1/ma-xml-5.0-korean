@@ -26,7 +26,7 @@
     <string name="input_device_name_tip">파일을 파일 전송툴을 이용해 보내게 되면, 블루투스나 핫스팟을 이용해 상호작용 하게 됩니다. 다른 기기들은 곧 당신의 기기 이름을 볼수 있게 됩니다.</string>
     <string name="use_start">지금 시작</string>
     <string name="device_name">기기 이름</string>
-    <string name="device_name_tip">\'휴대전화 정보'에 가서 기기 이름을 수정할수 있어요.</string>
+    <string name="device_name_tip">"'휴대전화 정보'에 가서 기기 이름을 수정할수 있어요."</string>
     <string name="transfer_history">전송 기록</string>
     <string name="no_transfer_history">전송 기록이 없습니다.</string>
     <string name="you_can">내가 가능한것:</string>
