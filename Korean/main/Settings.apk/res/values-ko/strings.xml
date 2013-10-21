@@ -1105,7 +1105,6 @@
     <string name="quick_launch_summary" msgid="8101133819188001190">"앱을 실행하는 바로가기 설정"</string>
     <string name="quick_launch_assign_application" msgid="6240064079456617501">"앱 할당"</string>
     <string name="quick_launch_no_shortcut" msgid="5998005833838278693">"바로가기 없음"</string>
-    <string name="quick_launch_shortcut" msgid="5090405067413522300">"검색 + <xliff:g id="SHORTCUT_LETTER">%1$s</xliff:g>"</string>
     <string name="quick_launch_clear_dialog_title" msgid="5546543501250320220">"지우기"</string>
     <string name="quick_launch_clear_dialog_message" msgid="3921015601470260722">" <xliff:g id="SHORTCUT_LETTER">%1$s</xliff:g>(<xliff:g id="APPLICATION_NAME">%2$s</xliff:g>)에 대한 바로가기가 지워집니다."</string>
     <string name="quick_launch_clear_ok_button" msgid="2634568926597586716">"확인"</string>
