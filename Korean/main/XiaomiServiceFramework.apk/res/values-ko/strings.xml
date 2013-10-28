@@ -54,7 +54,7 @@
 	<string name="micloud_reg_new">새로</string>
 	<string name="micloud_resend_active_email">활성 이메일 재전송</string>
 	<string name="micloud_title">새로 계정을 만들고 싶습니다.</string>
-	<string name="micloud_use_existing">이미 게정이 있습니다.</string>
+	<string name="micloud_use_existing">이미 계정이 있습니다.</string>
 	<string name="micloud_val_sms_alert">문자로 인증 번호가 전송됩니다. 계속할까요?</string>
 	<string name="micloud_waiting">기다리는 중...</string>
 	<string name="micloud_welcome_banner">Xiaomi 계정</string>
