@@ -14,6 +14,7 @@ MIUI Android English Translations (Started August 2010 by Mark Hedley) by Mark H
 licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
 
 MIUI V5 Korean Translations is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Korea.(http://creativecommons.org/licenses/by-nc-sa/2.0/kr/deed.en)
+
 해당 Git repo에 있는 자료들은 위 창작물을 기반으로 만들어졌으며 크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 2.0 대한민국 규정에 따라 이용하실 수 있습니다.(http://creativecommons.org/licenses/by-nc-sa/2.0/kr/deed.ko)
 
 
