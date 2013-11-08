@@ -2,10 +2,10 @@ MIUI V5 Korean Translations
 
 ---------------------------------------------------------------------------------------------
 현재 작업중입니다. 약 1~3달의 시간이 걸릴 수 있습니다. 하필 중요한 시험이 겹쳐서..
-개발자 분들께서는 임시로 https://github.com/nosoy1/ma-xml-5.0-korean-2 레포를 이용하실 수 있습니다. 불편을 드려 죄송합니다.
+개발자 분들께서는 임시로 https://github.com/BeMoreSee/ma-xml-5.0-korean 레포를 이용하실 수 있습니다. 불편을 드려 죄송합니다.
 
 Sorry, This repo is supplementing translations.
-You can use old version repo at https://github.com/nosoy1/ma-xml-5.0-korean-2
+You can use old version repo at https://github.com/BeMoreSee/ma-xml-5.0-korean
 
 
 ---------------------------------------------------------------------------------------------
