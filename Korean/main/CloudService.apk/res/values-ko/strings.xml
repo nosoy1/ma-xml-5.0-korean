@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">샤오미 동기화</string>
+    <string name="sync_item_sms_title">SMS 동기화</string>
+    <string name="sync_item_sms_summary">문자메시지가 동기화 된 후 전원을 켭니다.</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Wi-Fi 상태에서만 MMS동기화</string>
+    <string name="sub_sync_item_sms_summary">Wi-Fi를 사용하지 않는 경우 데이터 요금이 늘어납니다.</string>
+    <string name="pref_title_sync_contacts_title">연락처 동기화</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Wi-Fi 상태에서만 사진표시</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Wi-FIi를 사용하지 않는 경우 데이터 용량을 소모합니다.</string>
+    <string name="find_device">장치 찾기</string>
+    <string name="find_device_stop_noise">\"OK\"누르면 소리가 중다됩니다. </string>
+</resources>

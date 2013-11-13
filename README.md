@@ -7,6 +7,9 @@ MIUI V5 Korean Translations
 Sorry, This repo is supplementing translations.
 You can use old version repo at https://github.com/BeMoreSee/ma-xml-5.0-korean
 
+개발
+나래,비모씨
+
 
 ---------------------------------------------------------------------------------------------
 

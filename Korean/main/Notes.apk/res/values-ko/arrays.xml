@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backup format -->
+    <string-array name="format_for_exported_note">
+        <item>-%s</item>      <!-- format_folder_name -->
+        <item>--%s</item>     <!-- format_folder_note_date -->
+        <item>--%s</item>     <!-- format_note_date -->
+        <item>--%s</item>     <!-- format_note_content -->
+    </string-array>
+	    <string-array name="font_size_names">
+        <item>작게</item>
+        <item>기본</item>
+        <item>크게</item>
+        <item>매우 크게</item>
+    </string-array>
+
+	 <string-array name="contact_values">
+        <item>vnd.android.cursor.item/name</item>
+        <item>vnd.android.cursor.item/nickname</item>
+        <item>vnd.android.cursor.item/phone_v2</item>
+        <item>vnd.android.cursor.item/email_v2</item>
+        <item>vnd.android.cursor.item/organization</item>
+        <item>vnd.android.cursor.item/im</item>
+        <item>vnd.android.cursor.item/sip_address</item>
+        <item>vnd.android.cursor.item/contact_event</item>
+        <item>vnd.android.cursor.item/website</item>
+        <item>vnd.android.cursor.item/postal-address_v2</item>
+        <item>vnd.android.cursor.item/note</item>
+    </string-array>
+
+
+	  <string-array name="contact_entries">
+        <item>이름</item>
+        <item>별명</item>
+        <item>전화</item>
+        <item>E-mail</item>
+        <item>조직</item>
+        <item>IM</item>
+        <item>SIP 전화</item>
+        <item>생일</item>
+        <item>웹사이트</item>
+        <item>주소</item>
+        <item>노트</item>
+    </string-array>
+</resources>
