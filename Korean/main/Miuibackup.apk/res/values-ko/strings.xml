@@ -156,12 +156,12 @@
     <string name="task_canceled">취소됨</string>
     <string name="task_canceled_all_local">작업 취소</string>
     <string name="task_canceled_local">작업 취소. %1$s 완료</string>
-    <string name="task_cloud_backup_cancel_dialog">백업이 완료되지 않았습니다. 백업을 취소하려면 '확인'을 누르세요.</string>
+    <string name="task_cloud_backup_cancel_dialog">"백업이 완료되지 않았습니다. 백업을 취소하려면 '확인'을 누르세요."</string>
     <string name="task_failed">실패</string>
     <string name="task_failed_all_local">작업 실패</string>
     <string name="task_failed_local">작업 실패. %1$s 완료</string>
     <string name="task_finished">완료</string>
-    <string name="task_local_backup_cancel_dialog">백업이 완료되지 않았습니다. 백업을 취소하려면 '확인'을 누르세요.</string>
+    <string name="task_local_backup_cancel_dialog">"백업이 완료되지 않았습니다. 백업을 취소하려면 '확인'을 누르세요."</string>
     <string name="task_pending">대기 중</string>
     <string name="task_post_running">처리 중</string>
     <string name="task_pre_running">준비 중</string>
@@ -172,7 +172,7 @@
     <string name="task_restore_none">복구할 필요 없음</string>
     <string name="task_running_backup_dialog">확인을 누르면 백그라운드에서 진행중인 백업 상태를 확인할 수 있습니다.</string>
     <string name="task_running_backup_hint">백업이 백그라운드에서 진행중입니다 다시 시도해주세요</string>
-    <string name="task_running_dialog">백그라운드로 백업/복구가 진행중입니다. 확인하시려면 '확인'을 누르세요.</string>
+    <string name="task_running_dialog">"백그라운드로 백업/복구가 진행중입니다. 확인하시려면 '확인'을 누르세요."</string>
     <string name="task_running_hint">서비스가 백그라운드로 실행중입니다. 다시 시도하세요</string>
     <string name="task_running_restore_dialog">확인을 누르면 백그라운드에서 진행중인 복원 상태를 확인 합니다.</string>
     <string name="task_running_restore_hint">복원이 백그라운드에서 진행중입니다. 다시 시도해주세요</string>
