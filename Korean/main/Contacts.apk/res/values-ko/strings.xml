@@ -486,16 +486,16 @@
     <string name="call_log_item_count_and_date" msgid="7641933305703520787">"<xliff:g id="DATE">%2$s</xliff:g>에 통화 <xliff:g id="COUNT">%1$d</xliff:g>통"</string>
     <string name="group_name_hint" msgid="2659811836386413509">"그룹의 이름"</string>
     <string name="nfc_vcard_file_name" msgid="2823095213265993609">"NFC를 통해 받은 연락처"</string>
-    <string name="status_available" msgid="5586870015822828392">"대화 가능"</string>
-    <string name="status_away" msgid="1838861100379804730">"자리 비움"</string>
-    <string name="status_busy" msgid="9147992455450257136">"다른 용무 중"</string>
-    <string name="description_call_log_play_button" msgid="651182125650429846">"음성사서함 재생"</string>
-    <string name="description_call_log_incoming_call" msgid="4485427487637250143">"수신 전화"</string>
-    <string name="description_call_log_outgoing_call" msgid="604831756853471658">"발신 전화"</string>
-    <string name="description_call_log_missed_call" msgid="2242805209983708825">"부재중 전화"</string>
-    <string name="description_call_log_voicemail" msgid="4600798771975158948">"음성사서함"</string>
-    <string name="description_add_contact" msgid="3103414772502485851">"연락처 추가"</string>
-    <string name="description_view_contact" msgid="5205669345700598415">"<xliff:g id="NAME">%1$s</xliff:g>님의 연락처 보기"</string>
+    <string name="status_available" >"대화 가능"</string>
+    <string name="status_away" >"자리 비움"</string>
+    <string name="status_busy" >"다른 용무 중"</string>
+    <string name="description_call_log_play_button">"음성사서함 재생"</string>
+    <string name="description_call_log_incoming_call">"수신 전화"</string>
+    <string name="description_call_log_outgoing_call">"발신 전화"</string>
+    <string name="description_call_log_missed_call" >"부재중 전화"</string>
+    <string name="description_call_log_voicemail">"음성사서함"</string>
+    <string name="description_add_contact">"연락처 추가"</string>
+    <string name="description_view_contact">"<xliff:g id="NAME">%1$s</xliff:g>님의 연락처 보기"</string>
     <string name="description_call" msgid="3443678121983852666">"<xliff:g id="NAME">%1$s</xliff:g>님에게 전화걸기"</string>
     <string name="description_send_text_message" msgid="7803126439934046891">"<xliff:g id="NAME">%1$s</xliff:g>님에게 문자 메시지 보내기"</string>
     <string name="description_send_message" msgid="6046623392322890962">"<xliff:g id="NAME">%1$s</xliff:g>님에게 메시지 보내기"</string>

@@ -102,10 +102,10 @@ Xiaomi 고객지원센터로 연락해주세요.(중국어/영어)"</string>
   <string name="giftcard_hint">MiCredits added via gift card will be spent first automatically.</string>
   <string name="giftcard_push_notification_prime_title">"You've received a gift certificate"</string>
   <string name="giftcard_push_notification_sub_title">%1$s: %2$s MiCredit giveaway.</string>
-  <string name="giftcard_record">My gift cards</string>
+  <string name="giftcard_record">나의 기프트카드</string>
   <string name="giftcard_value">(%1$s-MiCredit gift card)</string>
   <string name="hfb_app_name">UMPay</string>
-  <string name="hfb_commit">Submit order</string>
+  <string name="hfb_commit">주문 제출</string>
   <string name="hfb_complete">Purchased successfully!</string>
   <string name="hfb_complete_hint">(Infornation below to help complete your purchase)</string>
   <string name="hfb_confirm">Confirm</string>
@@ -425,7 +425,7 @@ We will check again within two working days."</string>
   <string name="title_nopassword_dialog">Daily limit</string>
   <string name="title_password">Password</string>
   <string name="title_password_threshold">Daily limit = %1$s yuan</string>
-  <string name="title_pay">Pay with MiCredits</string>
+  <string name="title_pay">MiCredits를 이용하여 결</string>
   <string name="title_pay_record">Payment records</string>
   <string name="title_recharge">Top up MiCredit</string>
   <string name="title_recharge_record">Top-up records</string>
