@@ -92,7 +92,7 @@
   <string name="calllog_menu_edit_before_call">번호 편집 후 걸기</string>
   <string name="calllog_menu_send_sms">문자 보내기</string>
   <string name="callrecordview_item_newcontact">새 연락처</string>
-  <string name="callrecordview_item_op_time_minutes_seconds">%d분 %d초</string>
+  <string name="callrecordview_item_op_time_minutes_seconds">%1$d분 %2$d초</string>
   <string name="callrecordview_item_op_time_missed">연결 안됨</string>
   <string name="callrecordview_item_op_time_only_minutes">%d분</string>
   <string name="callrecordview_item_op_time_only_seconds">%d초</string>
