@@ -467,7 +467,7 @@
   <string name="label_no_duplicate_contacts">중복된 연락처가 없습니다!</string>
   <string name="label_notes">"메모"</string>
   <string name="label_sip_address">"인터넷 통화"</string>
-  <string name="launcherDialer">휴대전화</string>
+  <string name="launcherDialer">전화</string>
   <string name="listCustomView">커스텀 뷰의 연락처</string>
   <string name="listFoundAllContactsZero">연락처 없음</string>
   <string name="listSingleContact">단일 연락처</string>
