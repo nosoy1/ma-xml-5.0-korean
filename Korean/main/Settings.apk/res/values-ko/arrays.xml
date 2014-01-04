@@ -449,10 +449,6 @@
         <item>주황색</item>
         <item>사파이어색</item>
     </string-array>
-    <array name="wifi_wapi_psk_type">
-        <item>@string/wifi_security_wapi_psk_ascii</item>
-        <item>@string/wifi_security_wapi_psk_hexadecimal</item>
-    </array>
     <string-array name="led_color_values_for_mione">
         <item>blue</item>
         <item>red</item>

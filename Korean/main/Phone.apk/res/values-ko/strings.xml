@@ -722,7 +722,7 @@
   <string name="pause_prompt_yes">"예"</string>
   <string name="payphone">"공중전화"</string>
   <string name="phoneAppLabel">"모바일 데이터"</string>
-  <string name="phoneIconLabel">"휴대전화"</string>
+  <string name="phoneIconLabel">"전화"</string>
   <string name="phone_entered_ecm_text">"긴급 콜백 모드 시작"</string>
   <string name="phone_in_ecm_call_notification_text">"데이터 연결이 끊김"</string>
   <string name="phone_in_ecm_notification_title">"긴급 콜백 모드"</string>
