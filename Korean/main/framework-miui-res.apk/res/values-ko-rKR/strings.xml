@@ -478,6 +478,8 @@
     <string name="winter_solstice">동지</string>
   <string name="yesterday">어제</string>
   
+  <string name="format_time_in_12_hours">ahh:mm</string>
+  
   <string-array name="detailed_am_pm_names">
         <item>오전</item>
         <item>오전</item>
