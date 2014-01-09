@@ -2733,7 +2733,7 @@
   <string name="wifi_advanced_settings_label">"IP 설정"</string>
   <string name="wifi_advanced_titlebar">"고급 Wi-Fi"</string>
   <string name="wifi_api_test">Wi-Fi API</string>
-  <string name="wifi_auto_connect">자동 연ㄱㄹ</string>
+  <string name="wifi_auto_connect">자동 연결</string>
   <string name="wifi_cancel">취소</string>
   <string name="wifi_certificate">인증서</string>
   <string name="wifi_config_info">Wi-Fi 설정</string>
@@ -2896,7 +2896,7 @@
   <string name="wifi_share_other_network">다른 Wi-Fi 네트워크</string>
   <string name="wifi_share_qrcode_finish">완료</string>
   <string name="wifi_share_qrcode_summary">QR코드를 읽기 위해 MIUI 카메라를 이용합니다.</string>
-  <string name="wifi_share_qrcode_title">Wi-Fi를 이용하여 QR코드 공유</string>
+  <string name="wifi_share_qrcode_title">QR코드를 이용하여 Wi-Fi 공유</string>
   <string name="wifi_share_show_network">디스플레이 네트워크</string>
   <string name="wifi_share_summary1">MIUI 유저들끼리 서로 자물쇠 걸린 Wi-Fi에 연결이 가능합니다.</string>
   <string name="wifi_share_summary2">만약 다른 MIUI 이용자가 네트워크를 공유시, 당신은 그 네트워크에 비밀번호 없이 진입 가능합니다.</string>
