@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="account_and_synchronization">계정 &amp; 동기화</string>
+  <string name="account_setting">계정 설정</string>
   <string name="add">추가</string>
   <string name="add_to">추가</string>
   <string name="add_to_favorite">즐겨찾기에 추가</string>
@@ -29,6 +31,8 @@
   <string name="auto_correct_id3_summary">Audio fingerprint algorithm will correct ID3 data when playing.</string>
   <string name="batch_correct_id3_completed">ID3 교정 실행 완료</string>
   <string name="billboard">인기순위</string>
+  <string name="bind_baidu_account_setting">Baidu 계정 연동</string>
+  <string name="bind_baidu_account_summary">Baidu 음악 계정과 연동시켜 재생목록 및 기타 서비스를 추가하세요.</string>
   <string name="buffering">버퍼링</string>
   <string name="cancel">취소</string>
   <string name="cancel_sleep_mode">수면 타이머가 중지되었습니다.</string>
@@ -36,6 +40,8 @@
   <string name="channel">FM</string>
   <string name="channel_format" formatted="false">"%s  %s MHZ"</string>
   <string name="channel_postfix">MHZ</string>
+  <string name="choose_download_quality">다운로드 품질 선택</string>
+  <string name="choose_stream_quality">스트리밍 품질 선택</string>
   <string name="click_to_shuffle">터치하여 모두 섞기</string>
   <string name="complete">완료</string>
   <string name="confirm">확인</string>
@@ -52,12 +58,20 @@
   <string name="create_equalzier_create_text_prompt">이퀄라이저 설정 이름</string>
   <string name="create_playlist_create_text_prompt">재생목록 이름</string>
   <string name="custom">사용자 설정</string>
+  <string name="data_usage_warning">데이터 사용에 주의하세요!</string>
+  <string name="data_usage_warning_summary">데이터 연결을 이용하여 높은 음질의 음악을 들으면 많은 요금이 나올 수 있습니다.</string>
   <string name="default_interval">30</string>
   <string name="delete_file_from_sdcard">SD카드에서 삭제</string>
   <string name="delete_item">삭제</string>
   <string name="delete_playlist_menu">삭제</string>
   <string name="delete_song_desc">\"%s\" 개의 곡이 SD카드에서 영구적으로 삭제됩니다.</string>
   <string name="deselect_all">전체 선택해제</string>
+  <string name="dirac_mode_earbuds">Xiaomi 헤드폰</string>
+  <string name="dirac_mode_general">기본 모드</string>
+  <string name="dirac_mode_in_ear">Xiaomi 인-이어 헤드폰</string>
+  <string name="dirac_mode_off">Dirac 끄기</string>
+  <string name="dirac_mode_piston_100">Xiaomi Piston 헤드폰</string>
+  <string name="disconnect">연결 끊기</string>
   <string name="download">다운로드</string>
   <string name="download_album_settings">자동으로 앨범 표지 다운로드</string>
   <string name="download_album_summary">앨범 표지 다운로드는 데이터를 많이 사용합니다. 무선랜 사용을 추천합니다.</string>
@@ -65,6 +79,7 @@
   <string name="download_all_avatar">아티스트 아바타 다운로드</string>
   <string name="download_all_track">모든 트랙 다운로드</string>
   <string name="download_batch_start">전부 다운로드</string>
+  <string name="download_completed">다운로드됨</string>
   <string name="download_lyric_settings">자동으로 가사 다운로드</string>
   <string name="download_lyric_summary">가사 다운로드는 트래픽을 많이 소모하지는 않습니다.</string>
   <string name="download_processing">다운로드 중</string>
@@ -72,12 +87,35 @@
   <string name="durationformatshort">%2$d:%5$02d</string>
   <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
   <string name="empty_edit_hint">노래 정보를 찾을 수 없습니다.</string>
+  <string name="empty_track_list">재생 목록이 없습니다.</string>
   <string name="emptyplaylist">선택한 재생목록이 비어 있습니다.</string>
+  <string name="enabled">켜짐</string>
   <string name="enter_sleep_mode">슬립모드 시작</string>
+  <string name="eq_auto">사용자 지정</string>
+  <string name="eq_blues">블루스</string>
+  <string name="eq_classical">클래식</string>
+  <string name="eq_country">컨트리 음악</string>
+  <string name="eq_dance">댄스</string>
+  <string name="eq_delete">제거</string>
+  <string name="eq_delete_success">완료.</string>
+  <string name="eq_electronic">전자 음악</string>
+  <string name="eq_flat">플랫</string>
+  <string name="eq_hiphop">힙합</string>
+  <string name="eq_jazz">재즈</string>
+  <string name="eq_metal">메탈</string>
+  <string name="eq_pop">팝</string>
+  <string name="eq_preset_create">생성</string>
+  <string name="eq_preset_format">사용자 프리셋 %d</string>
+  <string name="eq_preset_hint">프리셋 이름을 입력하세요.</string>
+  <string name="eq_preset_rename">이름 바꾸기</string>
+  <string name="eq_preset_select">프리셋 선택</string>
+  <string name="eq_rb">R &amp; B</string>
+  <string name="eq_rock">락</string>
   <string name="equalizer">이퀄라이저</string>
   <string name="equalizer_delete">삭제</string>
   <string name="equalizer_delete_success">이퀄라이저 설정이 삭제되었습니다.</string>
   <string name="equalizer_save_success">이퀄라이저 설정이 저장되었습니다.</string>
+  <string name="expired">만료</string>
   <string name="fade_effect_settings">페이드 설정</string>
   <string name="fade_effect_summary">재생되는 곡 사이에 페드 효과를 넣습니다.</string>
   <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
@@ -97,10 +135,16 @@
   <string name="filter_by_size_prefix">"최소 크기:"</string>
   <string name="filter_by_size_summary">필터가 너무 작습니다.</string>
   <string name="filter_notification">필터 효과가 적용되었습니다. 필터 설정에서 설정을 바꿀 수 있습니다.</string>
+  <string name="find_ktv">Discover KTV</string>
   <string name="folder_title_format" formatted="false">%s(%d)</string>
   <string name="folders_title">폴더</string>
   <string name="frequentlyplayed_title">자주 재생됨</string>
+  <string name="headphone_settings">헤드폰 종류설정</string>
+  <string name="high_quality">높은 음질</string>
+  <string name="higher_quality_music">높은 음질의 음악</string>
+  <string name="higher_quality_music_summary">높은 음질의 음악 다운로드</string>
   <string name="hot_artists">인기 아티스트</string>
+  <string name="i_know">확인</string>
   <string name="id3_edit">ID3 태그 편집</string>
   <string name="id3_edit_failed">ID3 태그 정보 편집에 실패하였습니다.</string>
   <string name="id3_modify_confirm_check">변경된 ID3 정보를 저장할까요?</string>
@@ -109,6 +153,15 @@
   <string name="impunity_declaration_title">정보</string>
   <string name="keep_quit_position_settings">마지막 위치 기억</string>
   <string name="keep_quit_position_summary">재생 위치를 기억했다가 어플리케이션 실행시 복원합니다.</string>
+  <string name="ktv_alert_message">"Tap Use phone to add songs on the main page of the KTV\'s console to view the corresponding QR code"</string>
+  <string name="ktv_alert_title">음악 추가는 지원되는 기기에 한합니다.</string>
+  <string name="ktv_and_room">%1$s %2$s</string>
+  <string name="ktv_connected_alert_message">The songs you select will be added to the playlist named My KTV</string>
+  <string name="ktv_connected_alert_titel">%1$s에 연결됨</string>
+  <string name="ktv_disconnect_alert_titel">%1$s 의 연결을 끊으시겠습니까?</string>
+  <string name="ktv_song_vod_fail">%1$s 추가에 실패했습니다.</string>
+  <string name="ktv_song_vod_success">%1$s 추가됨.</string>
+  <string name="ktv_unbind_message">"Failed to connect with KTV console. Make sure you\'re scanning the correct QR code."</string>
   <string name="listen_to_music_online_settings">온라인 음악 감상</string>
   <string name="listen_to_online_summary">모바일 데이터를 사용해 온라인 음악감상을 할지 정합니다.</string>
   <string name="load_album_artist_failed">앨범과 아티스트 목록을 불러오는데 실패하였습니다. 다시 시도해주세요.</string>
@@ -124,6 +177,8 @@
   <string name="load_channel_failed">채널 목록을 불러오는데 실패하였습니다. 다시 시도해주세요.</string>
   <string name="load_channel_in_process">채널 목록 불러오기</string>
   <string name="loading">불러오는 중</string>
+  <string name="login">로그인</string>
+  <string name="login_first">먼저 Xiaomi 계정에 로그인하세요.</string>
   <string name="lrc_progress_modify">가사 스크롤 속도 조절</string>
   <string name="lrc_progress_modify_helper">가사를 위나 아래로 드래그하여 속도를 조절할 수 있습니다.</string>
   <string name="lrc_search_failed">가사를 찾을 수 없습니다!</string>
@@ -137,6 +192,10 @@
   <string name="lyric_picker_not_found">파일 관리자를 찾을 수 없습니다.</string>
   <string name="max_interval">90</string>
   <string name="mediaplaybacklabel">음악</string>
+  <string name="menu_higher_quality_music">높은 음질의 음악(달마다 접근)</string>
+  <string name="mi_effect">MI 효과</string>
+  <string name="mi_effect_summary">스피커를 이용중일시 언제나 MiSound를 이용합니다.</string>
+  <string name="mi_effect_title">MiSound 사용</string>
   <string name="min_interval">1</string>
   <string name="mobile_connect_settings">모바일 네트워크</string>
   <string name="modify_id3_for_list">현재 목록의 ID3 정보가 변경될 것입니다.</string>
@@ -147,8 +206,10 @@
   <string name="music_browser_label">음악</string>
   <string name="music_filter">파일 필터링</string>
   <string name="music_filter_helper">음악이 아닌 파일을 숨기기 위해 800Kb 이상의 파일만 표시합니다. 이 값은 설정-파일 필터에서 변경 가능합니다.</string>
+  <string name="music_not_loaded">음악 파일을 찾지 못헀습니다!</string>
   <string name="music_open_other_connect">모바일 데이터를 이용해 음악을 다운로드 합니다.</string>
   <string name="music_picker_title">노래를 선택해주세요.</string>
+  <string name="music_quality">음악 품질</string>
   <string name="music_settings">설정</string>
   <string name="network_error">네트워크 연결이 없습니다. 연결 설정을 확인하세요.</string>
   <string name="new_albums">새 앨범</string>
@@ -157,12 +218,19 @@
   <string name="new_playlist_name_template">%d 개의 새 재생목록</string>
   <string name="no_effect">효과 없음</string>
   <string name="no_song_downloaded">노래를 다운로드 할 수 없습니다.</string>
+  <string name="normal_quality">기본 음질</string>
+  <string name="not_login">로그인</string>
   <string name="not_selected">재생할 곡을 선택하세요.</string>
   <string name="notification_artist_album">"%2$s %1$s"</string>
   <string name="online_search_hint">온라인 음악 검색</string>
   <string name="online_title">온라인</string>
   <string name="other_settings">기타</string>
   <string name="overwrite_confirm">덮어쓰기</string>
+  <string name="pay_service_guide_dowload">다운로드 품질</string>
+  <string name="pay_service_guide_listen">스트리밍 품질</string>
+  <string name="pay_service_guide_new">높은 음질의 음악을 사용할 수 있습니다.</string>
+  <string name="payment_fail">결제 실패!</string>
+  <string name="payment_success">결제 성공!</string>
   <string name="play_all">Play All</string>
   <string name="play_and_download">자동 다운로드</string>
   <string name="play_and_download_summary">온라인으로 노래를 들을시 자동으로 다운로드 합니다.</string>
@@ -176,11 +244,14 @@
   <string name="playlist_deleted_message">재생목록이 삭제되었습니다.</string>
   <string name="playlist_favorite">즐겨찾기</string>
   <string name="playlist_frequently_played">자주 재생됨</string>
+  <string name="playlist_my_ktv">나의 KTV</string>
   <string name="playlist_recently_added">최근 추가됨</string>
   <string name="playlist_recently_played">최근 재생됨</string>
   <string name="playlist_renamed_message">재생목록 이름이 변경되었습니다.</string>
   <string name="playlists_title">재생 목록</string>
   <string name="powered_by">제작자 - </string>
+  <string name="project_device">Xiaomi MiBox</string>
+  <string name="project_device_mobile">모바일 기기</string>
   <string name="queue">현재 재생목록</string>
   <string name="quit_player">끝내기</string>
   <string name="quit_warining">%d분 후 재생이 자동으로 중지됩니다.</string>
@@ -192,14 +263,18 @@
   <string name="refresh_media_db">새로고침</string>
   <string name="refresh_start">새로고침이 시작되었습니다.</string>
   <string name="remove_from_favorite">즐겨찾기에서 제거</string>
-  <string name="remove_item">삭제</string>
+  <string name="remove_item">제거</string>
   <string name="rename_album_menu">앨범 이름 바꾸기</string>
   <string name="rename_artist_menu">아티스트 바꾸기</string>
   <string name="rename_playlist_menu">이름 바꾸기</string>
+  <string name="request_fail">요청 실패!</string>
+  <string name="requesting">요청중...</string>
   <string name="retry">Retry</string>
   <string name="ringtone_menu">벨소리로 설정</string>
+  <string name="ringtone_not_support">지원하지 않는 포맷 형식입니다.</string>
   <string name="ringtone_set">\"%s\" 이 벨소리로 설정되었습니다.</string>
   <string name="save">저장</string>
+  <string name="scan_barcode_to_connect">"Align the KTV console\'s QR code in the frame to scan"</string>
   <string name="scanning">SD 카드 탐색중\u2026</string>
   <string name="scanning_nosdcard">USB 저장소 탐색중\u2026</string>
   <string name="screen_bright_wake">화면 항상 켜짐</string>
@@ -219,6 +294,7 @@
   <string name="select_quit_time">몇분 후에 재생을 멈출지 설정하세요.</string>
   <string name="send_to">전송하기</string>
   <string name="send_to_application">다른 어플로 보내기</string>
+  <string name="server_error">서버 오류!</string>
   <string name="shake_and_skip">흔들어서 다음곡</string>
   <string name="shake_degree_desc">흔들기 민감도</string>
   <string name="shake_degree_high">높음</string>
@@ -234,95 +310,33 @@
   <string name="start_to_download_album">음악 라이브러리를 위해 앨범아트 다운로드</string>
   <string name="start_to_download_avatar">음악 라이브러리를 위해 아티스트 아바타 다운로드 </string>
   <string name="streamloadingtext">%s 에 접속중</string>
+  <string name="synchronize_guide_toast">동기화를 활성화 하려면, 설정 동기화에서 설정하세요.</string>
+  <string name="synchronize_playlist_setting">재생목록 동기화</string>
+  <string name="synchronize_playlist_summary">MiCloud에서 동기화합니다.</string>
+  <string name="synchronize_to_baidu_cloud">바이두 클라우드를 이용해 온라인 송을 백업합니다.</string>
   <string name="track_album_format" formatted="false">%s - %s</string>
+  <string name="track_bit_rate_hd">높음</string>
+  <string name="track_bit_rate_standard">기본</string>
+  <string name="track_bit_rate_uhd">높게</string>
   <string name="track_edit">노래</string>
   <string name="track_num_format">(%s)</string>
   <string name="tracks_title">모든 노래</string>
+  <string name="ultra_high_quality">가장높은 음질</string>
   <string name="unknown_album_name">알 수 없는 앨범</string>
   <string name="unknown_artist_name">알 수 없는 아티스트</string>
   <string name="use_local_album">저장된 앨범아트 사용</string>
   <string name="use_local_lyric">저장된 가사 사용</string>
-  
-  
-      <plurals name="Ntracks_search_result_format">
-        <item quantity="other">%d 개의 관련 노래</item>
-        <item quantity="one">%d 개의 관련 노래</item>
-    </plurals>
-    <plurals name="Ntracks_total">
-        <item quantity="other">%d 개의 노래</item>
-        <item quantity="one">%d 개의 노래</item>
-    </plurals>
-    <plurals name="Ntracks_string">
-        <item quantity="other">%d 개의 노래</item>
-        <item quantity="one">%d 개의 노래</item>
-    </plurals>
-    <plurals name="Ntracks_format">
-        <item quantity="other">%d 개의 노래</item>
-        <item quantity="one">%d 개의 노래</item>
-    </plurals>
-    <plurals name="Nalbums_format">
-        <item quantity="other">%d 개의 앨범</item>
-        <item quantity="one">%d 개의 앨범</item>
-    </plurals>
-    <plurals name="Ntracks">
-        <item quantity="other">개의 노래</item>
-        <item quantity="one">개의 노래</item>
-    </plurals>
-    <plurals name="Nalbums">
-        <item quantity="other">개의 앨범</item>
-        <item quantity="one">개의 앨범</item>
-    </plurals>
-    <plurals name="Nartists">
-        <item quantity="other">명의 아티스트</item>
-        <item quantity="one">명의 아티스트</item>
-    </plurals>
-    <plurals name="Nplaylists">
-        <item quantity="other">개의 재생목록</item>
-        <item quantity="one">개의 재생 목록</item>
-    </plurals>
-    <plurals name="Nfolders">
-        <item quantity="other">" 개의 폴더"</item>
-        <item quantity="one">"  개의 폴더"</item>
-    </plurals>
-    <plurals name="Nitems_batch_selection">
-        <item quantity="other">%d개의 노래가 선택되었습니다</item>
-        <item quantity="one">%d개의 노래가 선택되었습니다</item>
-    </plurals>
-    <plurals name="Ntrack_in_sdcard_format">
-        <item quantity="other">%d개의 노래가 SD카드에 있습니다</item>
-        <item quantity="one">%d개의 노래가 SD카드에 있습니다</item>
-    </plurals>
-    <plurals name="NNNtrackstoplaylist">
-        <item quantity="other">%d 개의 노래가 재생목록에 추가되었습니다..</item>
-		<item quantity="one">1 개의 노래가 재생목록에 추가되었습니다..</item>
-    </plurals>
-    <plurals name="NNNtrackstofavoriteplaylist">
-        <item quantity="other">%d 개의 노래가 재생목록에 추가되었습니다..</item>
-        <item quantity="one">1 개의 노래가 재생목록에 추가되었습니다..</item>
-    </plurals>
-    <plurals name="Nonlinecategory">
-        <item quantity="other">" 개의 분류"</item>
-        <item quantity="one">" 개의 분류"</item>
-    </plurals>
-    <plurals name="album_details_format">
-        <item quantity="other">%1$s, %2$d 개의  노래</item>
-        <item quantity="one">%1$s, %2$d 개의 노래</item>
-    </plurals>
-    <plurals name="NNNtracksdeleted">
-        <item quantity="other">%d 개의 노래이 삭제되었습니다..</item>
-        <item quantity="one">1 개의 노래이 삭제되었습니다..</item>
-    </plurals>
-    <plurals name="NTrackstoDownload">
-        <item quantity="other">%d 개의 노래가 다운로드 되었습니다.</item>
-        <item quantity="one">1 개의 노래가 다운로드 되었습니다.</item>
-    </plurals>
-    <plurals name="Ntracks_remove_from_favorite_playlist">
-        <item quantity="other">%d 개의 노래가 재생목록에서 삭제되었습니다..</item>
-        <item quantity="one">1 개의 노래가 재생목록에서 삭제되었습니다.</item>
-    </plurals>
-  
-  
-  
-  
-  
-  </resources>
+  <string name="valid_period">"인증 : "</string>
+  <string name="vip_bought">"고음질 음악 접근에 이미 결제했습니다."</string>
+  <string name="vip_expired">기한이 지났습니다.</string>
+  <string name="vip_rebuy">새로</string>
+  <string name="vip_recommend_buy">결제 ( 한달에  5RMB)</string>
+  <string name="vip_recommend_exchange">기프트코드 사용</string>
+  <string name="vip_recommend_main_title">무제한 CD음질(320Kbps)</string>
+  <string name="vip_recommend_rebuy">5 MiCredit을 이용해서 VIP 접근 새로</string>
+  <string name="vip_recommend_sub_title">5 MiCredit만으로!! (한달에)</string>
+  <string name="vip_recommend_summary">Stream or download all your favorite artists from Baidu Music at 320 kbps.</string>
+  <string name="vip_recommend_title">높은 음질의 음악</string>
+  <string name="where_is_barcode">"QR코드는 어디에 있을까요?"</string>
+  <string name="xiaomi_account_setting">Xiaomi 계정</string>
+</resources>
