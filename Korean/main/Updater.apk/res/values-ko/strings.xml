@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="about_device">휴대전화 정보</string>
   <string name="active_xiaomi_account">활성</string>
   <string name="active_xiaomi_account_msg">"Xiaomi 계정 인증을 위해 MIUI 포럼에 접속해주세요."</string>
