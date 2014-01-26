@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uninstall_dialog_title_format">
+        <item quantity="other"> \"%1$s\" 및 %2$d 개의 앱을 제거하시겠습니까?</item>
+        <item quantity="one"> \"%s\을(를) 제거합니다."</item>
+        <item quantity="two">\"%s\" 및 다른 앱을 지우시겠습니까?</item>
+    </plurals>
+    <plurals name="uninstall_result_succeeded">
+        <item quantity="other">%1$ 개의 앱이 제거되었습니다.</item>
+        <item quantity="one">앱이 제거되었습니다.</item>
+    </plurals>
+    <plurals name="uninstall_result_failed">
+        <item quantity="other">" \"%1$s\" 외 %2$d 개의 앱을 지우지 못했습니다."</item>
+        <item quantity="one">" \"%s\을(를) 지우지 못했습니다.""</item>
+        <item quantity="two">" \"%s\" 및 다른 앱을 지우지 못했습니다."</item>
+    </plurals>
+</resources>
