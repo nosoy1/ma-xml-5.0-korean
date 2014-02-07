@@ -87,7 +87,7 @@
   <string name="auto_ip_summary_not_enabled">비활성화</string>
   <string name="auto_ip_support_local_numbers">Support local numbers</string>
   <string name="auto_record_call_summary_miui">통화가 시작되면 자동으로 녹음을 시작하고 SD카드의 MIUI/sound_recorder/call_rec 폴더에 저장합니다.</string>
-  <string name="auto_record_call_title_miui">수동 녹음</string>
+  <string name="auto_record_call_title_miui">자동 녹</string>
   <string name="auto_record_scenario_enteries_always_miui">모든 번호에 대해 자동 통화녹음</string>
   <string name="auto_record_scenario_enteries_whitelist_miui">자동으로 통화녹음할 번호 지정</string>
   <string name="auto_record_scenario_title_miui">자동 통화녹음 모드</string>
