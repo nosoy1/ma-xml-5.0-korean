@@ -709,7 +709,7 @@
   <string name="preference_telocation_summary_countrycode_on">자동으로 지역 코드 추가</string>
   <string name="preference_telocation_summary_teloc_off">위치 숨기기</string>
   <string name="preference_telocation_summary_teloc_on">위치 표시</string>
-  <string name="preference_telocation_title">통신 위ㅣ</string>
+  <string name="preference_telocation_title">통신 위</string>
   <string name="preference_tone_title">톤</string>
   <string name="prepare_import">가져오기 준비</string>
   <string name="preview_contact_card_title">연락처 카드 가져오기</string>
