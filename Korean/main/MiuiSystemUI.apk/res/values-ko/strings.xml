@@ -160,7 +160,7 @@
     <string name="settings_expandable_under_keyguard">잠금화면에서도 상태바사용</string>
     <string name="settings_show_carrier">통신사명 보기</string>
     <string name="settings_custom_carrier">통신사명 편집</string>
-    <string name="settings_no_carrier">신호없음</string>
+    <string name="settings_no_carrier">통신사명 수정</string>
     <string name="settings_show_carrier_summary">잠금화면에서만 통신사명 나타남</string>
     <string name="settings_basic_settings">기본 설정</string>
     <string name="settings_advanced">추가 설정</string>
@@ -277,7 +277,7 @@
     <string name="status_bar_toggle_rotate">화면회전</string>
     <string name="status_bar_toggle_screen_button">버튼잠금</string>
     <string name="status_bar_toggle_screenshot">스크린샷</string>
-    <string name="status_bar_toggle_shutdown">대기모드</string>
+    <string name="status_bar_toggle_shutdown">전원 끄기</string>
     <string name="status_bar_toggle_sync">동기화</string>
     <string name="status_bar_toggle_torch">손전등</string>
     <string name="status_bar_toggle_vibrate">진동</string>
