@@ -104,4 +104,16 @@
         <item>우박</item> 
         <item>우박폭풍</item>
     </string-array>
+	    <string-array name="editing_mode_entries">
+        <item>홈 화면 초기화</item>
+        <item>위젯 추가</item>
+        <item>배경화면 바꾸기</item>
+        <item>화면전환 효과</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

@@ -25,7 +25,7 @@
   <string name="act_weather_main_data_null">날씨 정보가 없습니다. 다시 누르면 재검색하겠습니다.</string>
   <string name="act_weather_range_select">도시를 선택해주세요.</string>
   <string name="act_weather_range_title">인근의 날씨정보</string>
-  <string name="act_weather_update_time">%s 갱신되었습니다.</string>
+  <string name="act_weather_update_time">%s 분에 갱신되었습니다.</string>
   <string name="add_city">위치 추가</string>
   <string name="alert_message_delete">선택된 %d를 삭제하시겠습니까?</string>
   <string name="alert_provider_message">모바일 네트워크를 통한 위치 추적을 허용해주세요.</string>
@@ -97,7 +97,7 @@
   <string name="share_aqi_content">"\#MIUI 날씨#
 오늘 %1$s's 의 공기질은: %2$s, %3$s. %4$s %5$s 입니다."</string>
   <string name="share_content">\#MIUI weather#</string>
-  <string name="share_qq">Tencent Weibo를 이용하여 공</string>
+  <string name="share_qq">Tencent Weibo를 이용하여 공유</string>
   <string name="share_sina">Sina Weibo를 이용하여 공유</string>
   <string name="share_weather_content">"\#MIUI 날씨#
 오늘 %1$s's 날씨는 %2$s, %3$s, %4$s. %5$s 입니다."</string>
