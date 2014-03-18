@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="widget_sizes">
-        <item>home_edit_box_area_1_1</item>
-        <item>home_edit_box_area_1_2</item>
-        <item>home_edit_box_area_1_3</item>
-        <item>home_edit_box_area_1_4</item>
-        <item>home_edit_box_area_2_1</item>
-        <item>home_edit_box_area_2_2</item>
-        <item>home_edit_box_area_2_3</item>
-        <item>home_edit_box_area_2_4</item>
-        <item>home_edit_box_area_3_1</item>
-        <item>home_edit_box_area_3_2</item>
-        <item>home_edit_box_area_3_3</item>
-        <item>home_edit_box_area_3_4</item>
-        <item>home_edit_box_area_4_1</item>
-        <item>home_edit_box_area_4_2</item>
-        <item>home_edit_box_area_4_3</item>
-        <item>home_edit_box_area_4_4</item>
-    </string-array>
-	    <array name="item_shake_animation_scaler">
-        <item>0.0dip</item>
-        <item>-4.0dip</item>
-        <item>2.0dip</item>
-        <item>-1.0dip</item>
-        <item>0.0dip</item>
-    </array>
     <string-array name="transformation_entries">
         <item>기본</item>
         <item>기본(튕김효과 없음)</item>
@@ -35,29 +10,13 @@
         <item>회전</item>
         <item>3D 큐브</item>
     </string-array>
-    <string-array name="transformation_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-        <item>8</item>
-        <item>4</item>
-    </string-array>
     <string-array name="wallpaper_scroll_entries">
         <item>테마 설정 따름</item>
         <item>중앙</item>
         <item>왼쪽</item>
         <item>오른쪽</item>
     </string-array>
-    <string-array name="wallpaper_scroll_values">
-        <item>테마 설정 따름</item>
-        <item>중앙</item>
-        <item>왼쪽</item>
-        <item>오른쪽</item>
-    </string-array>
-	    <string-array name="cell_layout_size_entries">
+    <string-array name="cell_layout_size_entries">
         <item>4x4</item>
         <item>4x5</item>
         <item>5x5</item>
@@ -75,7 +34,7 @@
         <item>6x6</item>
         <item>6x7</item>
     </string-array>
-	    <string-array name="gadget_weather_theme_type_entries">
+    <string-array name="gadget_weather_theme_type_entries">
         <item>기본값</item>
         <item>클래식</item>
     </string-array>
@@ -104,16 +63,10 @@
         <item>우박</item> 
         <item>우박폭풍</item>
     </string-array>
-	    <string-array name="editing_mode_entries">
+    <string-array name="editing_mode_entries">
         <item>홈 화면 초기화</item>
         <item>위젯 추가</item>
         <item>배경화면 바꾸기</item>
         <item>화면전환 효과</item>
-    </string-array>
-    <string-array name="editing_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
 </resources>

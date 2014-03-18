@@ -16,7 +16,7 @@
   <string name="apply_update_fail">시스템 업데이트 실패</string>
   <string name="apply_update_timer">업데이트 완료, %d초후 기기가 재부팅됩니다.</string>
   <string name="apply_upload_info_message">\"업데이트\"버튼을 누르면 리부팅 후 자동으로 업데이트를 설치합니다.</string>
-  <string name="apply_upload_info_message_manually">전원을 끈 뒤 수동으로 복구 모드에 들어가 SD 카드의 <xliff:g id="FILE">%s</xliff:g> 파일을 적용하세요. 백업을 하지 않았다면 백업 후에 업데이트 하는 것을 권장합니다.</string>
+  <string name="apply_upload_info_message_manually">전원을 끈 뒤 수동으로 복구 모드에 들어가 SD 카드의 %s 파일을 적용하세요. 백업을 하지 않았다면 백업 후에 업데이트 하는 것을 권장합니다.</string>
   <string name="applying_rom_message">ROM 설치 중</string>
   <string name="applying_update">업데이트 중...%s</string>
   <string name="best_update">2. 최고의 업데이트</string>
@@ -75,10 +75,10 @@
   <string name="mione_update_fail_title">시스템 업데이트 실패</string>
   <string name="mione_update_success_title">시스템 업데이트 성공</string>
   <string name="monthly_build">월간 빌드</string>
-  <string name="move_data_to_sdcard_not_enough_space_message">SD 카드 용량이 부족합니다. 데이터를 SD 카드로 이동하려면 약 <xliff:g id="SIZE">%d</xliff:g>MB가 필요합니다.</string>
+  <string name="move_data_to_sdcard_not_enough_space_message">SD 카드 용량이 부족합니다. 데이터를 SD 카드로 이동하려면 약 %dMB가 필요합니다.</string>
   <string name="move_data_to_sdcard_title">SD 카드로 데이터 이동</string>
   <string name="moving_data_to_sdcard_message">데이터가 SD 카드로 이동중입니다. USB 모드를 켜거나 SD카드를 제거하지 말아주세요.</string>
-  <string name="moving_data_to_sdcard_progress_format"><xliff:g id="PROGRESS">%1$d</xliff:g>dKb중 <xliff:g id="TOTAL">%2$d</xliff:g>Kb 이동됨</string>
+  <string name="moving_data_to_sdcard_progress_format">%1$ddKb중 %2$dKb 이동됨</string>
   <string name="my_best_update">내가 선택한 최고의 업데이트</string>
   <string name="my_expect_update">내가 선택한 기대치</string>
   <string name="my_rank">"업데이트 랭킹:"</string>
@@ -86,8 +86,8 @@
   <string name="my_worst_update">내가 선택한 가장 안좋음 업데이트</string>
   <string name="network_error">접속할 수 없습니다. 인터넷 연결에 문제가 있거나 서버 과부하인 것 같습니다.</string>
   <string name="new_update_content_title">새 버전이 발견되었습니다.</string>
-  <string name="new_update_download_complete_body">새 버전으로 업데이트 가능:<xliff:g id="VERSION">%s</xliff:g></string>
-  <string name="new_update_downloading_body">새 버전 다운로드 중:<xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="new_update_download_complete_body">새 버전으로 업데이트 가능:%s</string>
+  <string name="new_update_downloading_body">새 버전 다운로드 중:%s</string>
   <string name="new_updates_found_notification_title">새 버전이 있습니다. 업데이트하세요!</string>
   <string name="new_updates_found_title">업데이트가 있습니다!</string>
   <string name="next">다음</string>
@@ -118,13 +118,13 @@
   <string name="share_qq">QQ에 공유</string>
   <string name="share_sina">Sina에 공유</string>
   <string name="share_update">시스템 설정 공유</string>
-  <string name="share_update_content_sign">I’ve updated MIUI to <xliff:g id="VERSION">%1$s</xliff:g>! My update user rank is <xliff:g id="RANK">%2$s</xliff:g>. For detailed changelog, please visit "<xliff:g id="CHANGELOG">%3$s</xliff:g>"</string>
-  <string name="share_update_content_unsign">I’ve updated MIUI to <xliff:g id="VERSION">%1$s</xliff:g>! For detailed changelog, please visit "<xliff:g id="CHANGELOG">%2$s</xliff:g>"</string>
+  <string name="share_update_content_sign">I’ve updated MIUI to %1$s! My update user rank is %2$s. For detailed changelog, please visit "%3$s"</string>
+  <string name="share_update_content_unsign">I’ve updated MIUI to %1$s! For detailed changelog, please visit "%2$s"</string>
   <string name="sign_in_add_account">Xiaomi 계정에 인증해주세요.</string>
   <string name="sign_in_add_account_helper">MIUI 계정 정보가 없습니다. 계정을 추가하여 사용자 포인트를 받으세요.</string>
-  <string name="sign_in_info">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용중입니다."</string>
-  <string name="sign_in_info_rank_more">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명 이상의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용중입니다."</string>
-  <string name="sign_in_info_total_more">"당신의 업데이트 랭킹은 <xliff:g id="RANK">%1$s</xliff:g>입니다.\n<xliff:g id="TOTAL">%2$s</xliff:g> 명 이상의 사람들이 MIUI <xliff:g id="VERSION">%3$s</xliff:g>를 사용중입니다."</string>
+  <string name="sign_in_info">"당신의 업데이트 랭킹은 %1$s입니다.\n%2$s 명의 사람들이 MIUI %3$s를 사용중입니다."</string>
+  <string name="sign_in_info_rank_more">"당신의 업데이트 랭킹은 %1$s입니다.\n%2$s 명 이상의 사람들이 MIUI %3$s를 사용중입니다."</string>
+  <string name="sign_in_info_total_more">"당신의 업데이트 랭킹은 %1$s입니다.\n%2$s 명 이상의 사람들이 MIUI %3$s를 사용중입니다."</string>
   <string name="sina_share_fail">전송 실패!</string>
   <string name="sina_share_pendding">전송중...</string>
   <string name="sina_share_success">전송 성공!</string>
@@ -156,7 +156,7 @@
   <string name="update_monthly_build_only">월간 업데이트만 적용</string>
   <string name="update_sad">안좋음</string>
   <string name="update_success">업데이트 성공</string>
-  <string name="update_success_body"><xliff:g id="VERSION">%s</xliff:g>버전으로 업데이트에 성공하였습니다.</string>
+  <string name="update_success_body">%s버전으로 업데이트에 성공하였습니다.</string>
   <string name="update_success_title">업데이트 성공!</string>
   <string name="updater_finish_download">ROM 다운로드 완료</string>
   <string name="upgrade_close">닫기</string>

@@ -343,28 +343,28 @@
          is a string representation of the amount of free space, eg. "20MB".
          [CHAR LIMIT=20]
     -->
-    <string name="free_space_format"><xliff:g id="bytes">%s</xliff:g> 남음</string>
+    <string name="free_space_format">%s 남음</string>
 
     <!-- Label of a group of pictures. The size of each picture in this group is
          less than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-    <string name="size_below"><xliff:g id="size">%1$s</xliff:g> 이하</string>
+    <string name="size_below">%1$s 이하</string>
 
     <!-- Label of a group of pictures. The size of each picture in this group is
          more than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-    <string name="size_above"><xliff:g id="size">%1$s</xliff:g> 이상</string>
+    <string name="size_above">%1$s 이상</string>
 
     <!-- Label of a group of pictures. The size of each picture in this group is
          between two amounts. The parameters are string representations of the two
          amounts, eg. "10MB", "100MB".
          [CHAR LIMIT=20]
     -->
-    <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g>~<xliff:g id="max_size">%2$s</xliff:g></string>
+    <string name="size_between">%1$s~%2$s</string>
 
     <!-- A label shown on the action bar. It indicates that the operation
          to import media item(s) [CHAR LIMIT=20] -->

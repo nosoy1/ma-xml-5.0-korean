@@ -81,12 +81,6 @@
         <item>크게</item>
         <item>엄청 크게</item>
     </string-array>
-    <string-array name="entryvalues_font_size">
-        <item>0.85</item>
-        <item>1.0</item>
-        <item>1.15</item>
-        <item>1.30</item>
-    </string-array>
     <string-array name="tts_rate_entries">
         <item>매우 느리게</item>
         <item>느리게</item>
@@ -94,26 +88,12 @@
         <item>빠르게</item>
         <item>매우 빠르게</item>
     </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-    </string-array>
     <string-array name="tts_pitch_entries">
         <item>매우 낮게</item>
         <item>낮게</item>
         <item>보통</item>
         <item>높게</item>
         <item>매우 높게</item>
-    </string-array>
-    <string-array name="tts_pitch_values">
-        <item>50</item>
-        <item>80</item>
-        <item>100</item>
-        <item>120</item>
-        <item>150</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
@@ -183,20 +163,10 @@
         <item>충전중에만</item>
         <item>유지하지 않음</item>
     </string-array>
-    <string-array name="wifi_sleep_policy_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>자동</item>
         <item>5 GHz 전용</item>
         <item>2.4 GHz 전용</item>
-    </string-array>
-    <string-array name="wifi_frequency_band_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>사용 시간</item>
@@ -228,71 +198,35 @@
         <item>CHAP</item>
         <item>PAP or CHAP</item>
     </string-array>
-    <string-array name="apn_auth_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="apn_protocol_entries">
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="apn_protocol_values">
-        <item>IP</item>
-        <item>IPV6</item>
-        <item>IPV4V6</item>
     </string-array>
     <string-array name="bearer_entries">
         <item>LTE</item>
         <item>eHRPD</item>
         <item>미지정</item>
     </string-array>
-    <string-array name="bearer_values">
-        <item>14</item>
-        <item>13</item>
-        <item>0</item>
-    </string-array>
     <string-array name="app_install_location_entries">
         <item>내부 저장소</item>
         <item>SD카드</item>
         <item>시스템이 알아서 설치</item>
-    </string-array>
-    <string-array name="app_install_location_values">
-        <item>device</item>
-        <item>sdcard</item>
-        <item>auto</item>
     </string-array>
     <string-array name="silent_mode_entries">
         <item>끄기</item>
         <item>진동</item>
         <item>무음</item>
     </string-array>
-    <string-array name="silent_mode_values">
-        <item>off</item>
-        <item>vibrate</item>
-        <item>mute</item>
-    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>짧게</item>
         <item>보통</item>
         <item>길게</item>
     </string-array>
-    <string-array name="long_press_timeout_selector_values">
-        <item>500</item>
-        <item>1000</item>
-        <item>1500</item>
-    </string-array>
     <string-array name="hdcp_checking_titles">
         <item>확인하지 않음</item>
         <item>DRM 컨텐츠에만 확인</item>
         <item>항상 확인</item>
-    </string-array>
-    <string-array name="hdcp_checking_values">
-        <item>never</item>
-        <item>drm-only</item>
-        <item>always</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>HDCP 확인 사용하지 않음</item>
@@ -308,15 +242,6 @@
         <item>5배속</item>
         <item>10배속</item>
     </string-array>
-    <string-array name="window_animation_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>애니메이션 없음</item>
         <item>0.5배속</item>
@@ -326,15 +251,6 @@
         <item>5배속</item>
         <item>10배속</item>
     </string-array>
-    <string-array name="transition_animation_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="app_process_limit_entries">
         <item>기본 제한</item>
         <item>백그라운드 프로세스 비허용</item>
@@ -342,14 +258,6 @@
         <item>2개</item>
         <item>3개</item>
         <item>4개</item>
-    </string-array>
-    <string-array name="app_process_limit_values">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
     <string-array name="vpn_types">
         <item>PPTP</item>
@@ -380,30 +288,15 @@
         <item>보통</item>
         <item>강하게</item>
     </string-array>
-    <string-array name="haptic_feedback_level_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>그래픽</item>
         <item>퍼센트</item>
         <item>상단 바</item>
     </string-array>
-    <string-array name="battery_indicator_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="usb_connection_mode_entries">
         <item>연결시 묻기</item>
         <item>충전만</item>
         <item>SD카드 연결</item>
-    </string-array>
-    <string-array name="usb_connection_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="led_freq_entries">
         <item>2초</item>

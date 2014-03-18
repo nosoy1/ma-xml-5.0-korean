@@ -7,7 +7,7 @@
   <string name="account_default">휴대전화</string>
   <string name="account_phone">"태블릿 전용, 동기화되지 않음"</string>
   <string name="account_sim">SIM 카드에만 저장되어 있음</string>
-  <string name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> 연락처"</string>
+  <string name="account_type_format">"%1$s 연락처"</string>
   <string name="account_unactivated">계정이 인증되지 않았습니다.</string>
   <string name="actionIncomingCall">수신 전화</string>
   <string name="action_menu_overflow_description">추가 설정</string>
@@ -20,7 +20,7 @@
   <string name="add_account">"계정 추가"</string>
   <string name="add_blacklist">수신거부 목록에 추가</string>
   <string name="add_connection_button">"연결 추가"</string>
-  <string name="add_contact_dlg_message_fmt">"\'<xliff:g id="EMAIL">%s</xliff:g>\'을(를) 주소록에 추가하겠습니까?"</string>
+  <string name="add_contact_dlg_message_fmt">"\'%s\'을(를) 주소록에 추가하겠습니까?"</string>
   <string name="add_field">"다른 입력란 추가"</string>
   <string name="add_new_account">"새 계정 추가"</string>
   <string name="add_new_entry_for_section">"새로 추가"</string>
@@ -45,7 +45,7 @@
   <string name="batch_delete">주소록 일괄 삭제</string>
   <string name="batch_delete_msg">선택한 %d개의 연락처를 삭제하시겠습니까? 클라우드에 저장된 연락처도 함께 삭제됩니다.</string>
   <string name="bluetooth_connection_failed_toast">블루투스 연결이 손상되었습니다.</string>
-  <string name="blurbJoinContactDataWith">"<xliff:g id="NAME">%s</xliff:g>와(과) 통합할 연락처를 선택하세요."</string>
+  <string name="blurbJoinContactDataWith">"%s와(과) 통합할 연락처를 선택하세요."</string>
   <string name="btn_delete_multi_contacts">%d 개의 주소록 삭제</string>
   <string name="btn_delete_one_contact">주소록 삭제</string>
   <string name="btn_rotation">회전</string>
@@ -57,7 +57,7 @@
   <string name="callAgain">다시 걸기</string>
   <string name="callBack">"전화 걸기"</string>
   <string name="callDetailTitle">"통화 세부정보"</string>
-  <string name="callDetailsDurationFormat" formatted="false">"<xliff:g id="MINUTES">%s</xliff:g>분 <xliff:g id="SECONDS">%s</xliff:g>초"</string>
+  <string name="callDetailsDurationFormat" formatted="false">"%s분 %s초"</string>
   <string name="callShortcutActivityTitle">"전화번호 선택"</string>
   <string name="call_assistant">%s 에 통화</string>
   <string name="call_callback">"콜백 번호로 전화 걸기"</string>
@@ -70,7 +70,7 @@
   <string name="call_home">"집으로 전화걸기"</string>
   <string name="call_isdn">"ISDN으로 전화걸기"</string>
   <string name="call_log_empty_gecode">"-"</string>
-  <string name="call_log_item_count_and_date">"<xliff:g id="DATE">%2$s</xliff:g>에 통화 <xliff:g id="COUNT">%1$d</xliff:g>통"</string>
+  <string name="call_log_item_count_and_date">"%2$s에 통화 %1$d통"</string>
   <string name="call_log_new_header">"신규"</string>
   <string name="call_log_old_header">"이전"</string>
   <string name="call_main">"기본 번호로 전화 걸기"</string>
@@ -121,8 +121,8 @@
   <string name="callrecordview_menu_show_stranger">알 수 없는(주소록에 없는) 통화</string>
   <string name="callrecordview_menu_show_title">표시될 통화기록을 선택하세요.</string>
   <string name="cancel_confirmation_dialog_message">"변경사항을 취소하시겠습니까?"</string>
-  <string name="cancel_export_confirmation_message">"<xliff:g id="FILENAME">%s</xliff:g> 내보내기를 취소하시겠습니까?"</string>
-  <string name="cancel_import_confirmation_message">"<xliff:g id="FILENAME">%s</xliff:g> 가져오기를 취소하시겠습니까?"</string>
+  <string name="cancel_export_confirmation_message">"%s 내보내기를 취소하시겠습니까?"</string>
+  <string name="cancel_import_confirmation_message">"%s 가져오기를 취소하시겠습니까?"</string>
   <string name="cancel_import_dialog_message">연락처 가져오기를 중단하시겠습니까?</string>
   <string name="cancel_import_dialog_title">가져오기 취소</string>
   <string name="cancel_vcard_import_or_export_failed">"vCard 가져오기/내보내기를 취소하지 못했습니다."</string>
@@ -163,7 +163,7 @@
   <string name="confirm_delete_contact_all_call_logs">"Are you sure you want to delete %s's call logs?"</string>
   <string name="confirm_delete_selected_all_call_logs">"정말 주소록의 통화 기록을 지우시겠습니까?"</string>
   <string name="confirm_delete_sim_entry_miui">"정말 %d 개의 SIM 카드 주소록을 지우시겠습니까?"</string>
-  <string name="confirm_export_message">"연락처 목록을 파일 \'<xliff:g id="VCARD_FILENAME">%s</xliff:g>\'(으)로 내보내시겠습니까?"</string>
+  <string name="confirm_export_message">"연락처 목록을 파일 \'%s\'(으)로 내보내시겠습니까?"</string>
   <string name="confirm_export_title">"내보내기 확인"</string>
   <string name="connections">"연결"</string>
   <string name="contactDetailAbout">"정보"</string>
@@ -176,19 +176,19 @@
   <string name="contact_delete_toast">성공적으로 주소록이 지워졌습니다.</string>
   <string name="contact_detail_calllog_call_note_tips">전화 노트</string>
   <string name="contact_detail_calllog_call_record_tips">전화 녹음</string>
-  <string name="contact_directory_description">"디렉토리 <xliff:g id="TYPE">%1$s</xliff:g>"</string>
+  <string name="contact_directory_description">"디렉토리 %1$s"</string>
   <string name="contact_edit_title_edit">주소록 수정</string>
   <string name="contact_edit_title_insert">%s 연락처 만들기</string>
   <string name="contact_edit_title_readonly">읽을수만 있는 연락처</string>
   <string name="contact_editor_prompt_multiple_accounts">"새 연락처를 다음 계정 중 하나와 동기화할 수 있습니다. 무엇을 사용하시겠습니까?"</string>
-  <string name="contact_editor_prompt_one_account">"새 연락처가 <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>와(과) 동기화됩니다."</string>
+  <string name="contact_editor_prompt_one_account">"새 연락처가 %1$s와(과) 동기화됩니다."</string>
   <string name="contact_editor_prompt_zero_accounts">"새 연락처는 백업되지 않습니다. 온라인에 주소록을 백업할 계정을 추가하시겠습니까?"</string>
   <string name="contact_is_readOnly">읽을수만 있는 연락처는 수정할 수 없습니다.</string>
   <string name="contact_list_loading">로드 중...</string>
   <string name="contact_pick_photo">사진</string>
   <string name="contact_read_only">"이 앱에서 수정할 수 없음"</string>
-  <string name="contact_status_update_attribution">"출처: <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
-  <string name="contact_status_update_attribution_with_date">"<xliff:g id="DATE">%1$s</xliff:g>(출처: <xliff:g id="SOURCE">%2$s</xliff:g>)"</string>
+  <string name="contact_status_update_attribution">"출처: %1$s"</string>
+  <string name="contact_status_update_attribution_with_date">"%1$s(출처: %2$s)"</string>
   <string name="contact_unfavorite_toast">즐겨찾기에서 연락처가 지워졌습니다.</string>
   <string name="contactsAllLabel">"전체"</string>
   <string name="contactsFavoritesLabel">즐겨찾기</string>
@@ -218,7 +218,7 @@
   <string name="delete_dial_input">삭제</string>
   <string name="delete_duplicate">일괄 병합</string>
   <string name="delete_duplicate_message">"병합중..."</string>
-  <string name="delete_group_dialog_message">"\'<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\' 그룹을 삭제하시겠습니까? (연락처는 삭제되지 않음)"</string>
+  <string name="delete_group_dialog_message">"\'%1$s\' 그룹을 삭제하시겠습니까? (연락처는 삭제되지 않음)"</string>
   <string name="delete_group_dialog_title">"그룹 삭제"</string>
   <string name="delete_selected_sim_entry_miui">선택된 연락처를 지우시겠습니까?</string>
   <string name="delete_sim_entries_finish">성공적으로 SIM 주소록에서 연락처가 지워졌습니다.</string>
@@ -228,7 +228,7 @@
   <string name="deleting_sim_entry_miui">SIM 카드에 있는 연락처를 삭제중입니다....</string>
   <string name="description_add_contact">"연락처 추가"</string>
   <string name="description_author">제작자:</string>
-  <string name="description_call">"<xliff:g id="NAME">%1$s</xliff:g>님에게 전화걸기"</string>
+  <string name="description_call">"%1$s님에게 전화걸기"</string>
   <string name="description_call_log_incoming_call">"수신 전화"</string>
   <string name="description_call_log_missed_call">"부재중 전화"</string>
   <string name="description_call_log_outgoing_call">"발신 전화"</string>
@@ -239,7 +239,7 @@
   <string name="description_delete_button">뒤로</string>
   <string name="description_designer">디자이너:</string>
   <string name="description_dial_button">전화 걸기</string>
-  <string name="description_dial_phone_number">"<xliff:g id="NAME">%1$s</xliff:g>님에게 전화걸기"</string>
+  <string name="description_dial_phone_number">"%1$s님에게 전화걸기"</string>
   <string name="description_digits_edittext">전화 걸기</string>
   <string name="description_download">다운로드:</string>
   <string name="description_image_button_eight">"8"</string>
@@ -256,17 +256,17 @@
   <string name="description_image_button_zero">"0"</string>
   <string name="description_minus_button">"빼기"</string>
   <string name="description_plus_button">plus</string>
-  <string name="description_quick_contact_for">"<xliff:g id="NAME">%1$s</xliff:g>님의 빠른 주소록"</string>
+  <string name="description_quick_contact_for">"%1$s님의 빠른 주소록"</string>
   <string name="description_search_button">검색</string>
-  <string name="description_send_message">"<xliff:g id="NAME">%1$s</xliff:g>님에게 메시지 보내기"</string>
-  <string name="description_send_text_message">"<xliff:g id="NAME">%1$s</xliff:g>님에게 문자 메시지 보내기"</string>
+  <string name="description_send_message">"%1$s님에게 메시지 보내기"</string>
+  <string name="description_send_text_message">"%1$s님에게 문자 메시지 보내기"</string>
   <string name="description_size">크기:</string>
   <string name="description_star">"즐겨찾기"</string>
   <string name="description_summary">정보:</string>
   <string name="description_uploadtime">업데이트됨:</string>
   <string name="description_version">버전:</string>
   <string name="description_version_szie">버전: %1$s 크기: %2$s</string>
-  <string name="description_view_contact">"<xliff:g id="NAME">%1$s</xliff:g>님의 연락처 보기"</string>
+  <string name="description_view_contact">"%1$s님의 연락처 보기"</string>
   <string name="description_view_contact_detail">"연락처 보기"</string>
   <string name="description_voicemail_button">음성메일</string>
   <string name="deselect_all">모두 선택해제</string>
@@ -326,7 +326,7 @@
   <string name="display_options_view_names_as">"연락처 이름 표시 방법:"</string>
   <string name="display_sim_contacts">SIM 카드에 저장된 연락처 표시</string>
   <string name="display_ungrouped">"다른 모든 연락처"</string>
-  <string name="display_warn_remove_ungrouped">"\'<xliff:g id="GROUP">%s</xliff:g>\'을(를) 동기화에서 제거하면 그룹화되지 않은 연락처도 동기화에서 제거됩니다."</string>
+  <string name="display_warn_remove_ungrouped">"\'%s\'을(를) 동기화에서 제거하면 그룹화되지 않은 연락처도 동기화에서 제거됩니다."</string>
   <string name="dlg_add_blacklist">선택된 번호를 차단목록에 추가하시겠습니까?</string>
   <string name="dlg_remove_blacklist">선택된 번호를 차단목록에서 지우시겠습니까?</string>
   <string name="download_failed">다운로드 실패!</string>
@@ -338,7 +338,7 @@
   <string name="edit_contact_card_title">연락처 카드 수정</string>
   <string name="email">"이메일"</string>
   <string name="emailLabelsGroup">"이메일"</string>
-  <string name="email_custom">"이메일(<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+  <string name="email_custom">"이메일(%s)"</string>
   <string name="email_home">"집으로 이메일 보내기"</string>
   <string name="email_mobile">"모바일로 이메일 보내기"</string>
   <string name="email_other">"이메일"</string>
@@ -356,24 +356,24 @@
   <string name="export_to_sim">SIM 카드로 내보내기</string>
   <string name="export_to_sim_title">SIM 으로 내보내는 중입니다...</string>
   <string name="export_vcard_description">vCard를 SD카드로 내보내기</string>
-  <string name="exporting_contact_failed_message">"연락처 데이터를 내보내지 못했습니다."\n"이유: \'<xliff:g id="FAIL_REASON">%s</xliff:g>\'"</string>
+  <string name="exporting_contact_failed_message">"연락처 데이터를 내보내지 못했습니다."\n"이유: \'%s\'"</string>
   <string name="exporting_contact_failed_title">"연락처 데이터를 내보내지 못했습니다."</string>
-  <string name="exporting_contact_list_message">"연락처 데이터를 \'<xliff:g id="FILE_NAME">%s</xliff:g>\'(으)로 내보내는 중"</string>
+  <string name="exporting_contact_list_message">"연락처 데이터를 \'%s\'(으)로 내보내는 중"</string>
   <string name="exporting_contact_list_progress" formatted="false">%s 중 %s 연락처</string>
   <string name="exporting_contact_list_title">"연락처 데이터 내보내기"</string>
-  <string name="exporting_vcard_canceled_title">"<xliff:g id="FILENAME">%s</xliff:g> 내보내기가 취소됨"</string>
-  <string name="exporting_vcard_finished_title">"<xliff:g id="FILENAME">%s</xliff:g> 내보내기 완료됨"</string>
-  <string name="external_profile_title">"내 <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> 프로필"</string>
-  <string name="fail_reason_could_not_initialize_exporter">"내보내기를 초기화하지 못했습니다. \'<xliff:g id="EXACT_REASON">%s</xliff:g>\'"</string>
-  <string name="fail_reason_could_not_open_file" formatted="false">"\'<xliff:g id="FILE_NAME">%s</xliff:g>\'을(를) 열 수 없습니다. <xliff:g id="EXACT_REASON">%s</xliff:g>"</string>
-  <string name="fail_reason_error_occurred_during_export">"내보내는 중에 오류가 발생했습니다. \'<xliff:g id="EXACT_REASON">%s</xliff:g>\'"</string>
+  <string name="exporting_vcard_canceled_title">"%s 내보내기가 취소됨"</string>
+  <string name="exporting_vcard_finished_title">"%s 내보내기 완료됨"</string>
+  <string name="external_profile_title">"내 %1$s 프로필"</string>
+  <string name="fail_reason_could_not_initialize_exporter">"내보내기를 초기화하지 못했습니다. \'%s\'"</string>
+  <string name="fail_reason_could_not_open_file" formatted="false">"\'%s\'을(를) 열 수 없습니다. %s"</string>
+  <string name="fail_reason_error_occurred_during_export">"내보내는 중에 오류가 발생했습니다. \'%s\'"</string>
   <string name="fail_reason_failed_to_collect_vcard_meta_info">"주어진 vCard에서 메타정보를 수집할 수 없습니다."</string>
   <string name="fail_reason_failed_to_read_files">"하나 또는 그 이상의 파일을 가져오지 못했습니다. (%s)."</string>
   <string name="fail_reason_io_error">"I/O 오류"</string>
   <string name="fail_reason_low_memory_during_import">"메모리가 부족합니다. 파일이 너무 크기 때문일 수 있습니다."</string>
   <string name="fail_reason_no_exportable_contact">"내보낼 수 있는 연락처가 없습니다."</string>
   <string name="fail_reason_not_supported">"지원되지 않는 형식입니다."</string>
-  <string name="fail_reason_too_long_filename">"필수 파일 이름이 너무 깁니다(\'<xliff:g id="FILENAME">%s</xliff:g>\')."</string>
+  <string name="fail_reason_too_long_filename">"필수 파일 이름이 너무 깁니다(\'%s\')."</string>
   <string name="fail_reason_too_many_vcard">"저장소에 vCard 파일이 너무 많습니다."</string>
   <string name="fail_reason_unknown">"알 수 없는 오류"</string>
   <string name="fail_reason_vcard_parse_error">"알 수 없는 이유로 vCard를 파싱하지 못했습니다."</string>
@@ -382,7 +382,7 @@
   <string name="favoritesFrequentContacted">"자주 연락하는 사람들의 연락처"</string>
   <string name="favorites_list_empty">즐겨찾기가 없습니다.</string>
   <string name="forward_from">전송 받음:</string>
-  <string name="foundTooManyContacts">"<xliff:g id="COUNT">%d</xliff:g>개 이상 찾음"</string>
+  <string name="foundTooManyContacts">"%d개 이상 찾음"</string>
   <string name="frequency_none">사용 안함</string>
   <string name="frequency_three_days">3일마다 확인후 알림</string>
   <string name="frequency_weekly">1주마다 확인후 알림</string>
@@ -454,9 +454,9 @@
   <string name="import_weibo_progress_name">%1$s</string>
   <string name="import_weibo_progress_percent">%1$d%%</string>
   <string name="importing_sim_contacts_miui">SIM 연락처 가져오는중...</string>
-  <string name="importing_vcard_canceled_title">"<xliff:g id="FILENAME">%s</xliff:g> 가져오기가 취소됨"</string>
-  <string name="importing_vcard_description">"<xliff:g id="NAME">%s</xliff:g> 가져오는 중"</string>
-  <string name="importing_vcard_finished_title">"<xliff:g id="FILENAME">%s</xliff:g> vCard 가져오기 완료"</string>
+  <string name="importing_vcard_canceled_title">"%s 가져오기가 취소됨"</string>
+  <string name="importing_vcard_description">"%s 가져오는 중"</string>
+  <string name="importing_vcard_finished_title">"%s vCard 가져오기 완료"</string>
   <string name="insertContactDescription">"연락처 만들기"</string>
   <string name="insertGroupDescription">그룹 만들기</string>
   <string name="invalidContactMessage">"연락처가 없습니다."</string>
@@ -496,7 +496,7 @@
   <string name="login_ok">로그인</string>
   <string name="lunarBirthdayLabelsGroup">음력 생일</string>
   <string name="make_primary">"이 선택사항 저장"</string>
-  <string name="map_custom">"<xliff:g id="CUSTOM">%s</xliff:g> 주소 보기"</string>
+  <string name="map_custom">"%s 주소 보기"</string>
   <string name="map_home">"집 주소 보기"</string>
   <string name="map_other">"주소 보기"</string>
   <string name="map_work">"직장 주소 보기"</string>
@@ -605,8 +605,8 @@
   <string name="none_paired">페어링된 기기가 없습니다.</string>
   <string name="not_applied">미지원</string>
   <string name="notification_action_voicemail_play">재생</string>
-  <string name="notification_new_voicemail_ticker">"<xliff:g id="CALLER">%1$s</xliff:g>님이 보낸 새 음성사서함"</string>
-  <string name="notification_voicemail_callers_list">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+  <string name="notification_new_voicemail_ticker">"%1$s님이 보낸 새 음성사서함"</string>
+  <string name="notification_voicemail_callers_list">"%1$s, %2$s"</string>
   <string name="online_no_network">네트워크에 연결할 수 없습니다.</string>
   <string name="online_search_hint">온라인에서 리소스 검색</string>
   <string name="openDialKeyboard">전화패드</string>
@@ -622,7 +622,7 @@
   <string name="option_view_contact">보기</string>
   <string name="option_view_group">보기</string>
   <string name="organizationLabelsGroup">"조직"</string>
-  <string name="organization_company_and_title">"<xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+  <string name="organization_company_and_title">"%2$s, %1$s"</string>
   <string name="other_contacts">기타</string>
   <string name="other_phone">기타 휴대전화</string>
   <string name="payphone">"공중전화"</string>
@@ -719,7 +719,7 @@
   <string name="profile_display_name">"내 프로필 설정"</string>
   <string name="profile_name">나의 프로필</string>
   <string name="profile_name_photo">I</string>
-  <string name="progress_notifier_message" formatted="false">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g> 가져오는 중: <xliff:g id="NAME">%s</xliff:g>"</string>
+  <string name="progress_notifier_message" formatted="false">"%s/%s 가져오는 중: %s"</string>
   <string name="quickcontact_missing_app">"이 작업을 처리하는 애플리케이션을 찾을 수 없습니다."</string>
   <string name="quit_dialog_confirm_title">중복 연락처 병합 작업을 취소할까요?</string>
   <string name="readOnlyContactDeleteConfirmation">"연락처에 여러 계정의 정보가 들어 있습니다. 읽기 전용 계정의 정보는 주소록 목록에서 숨길 수 있지만 삭제할 수는 없습니다."</string>
@@ -906,7 +906,7 @@
   <string name="scan_duplicate_message">%1$d개의 완전히 똑같은 연락처</string>
   <string name="scan_merge">중복된 연락처를 검색중입니다. 잠시만 기다려주세요t...</string>
   <string name="scanning">기기 검색중...</string>
-  <string name="scanning_sdcard_failed_message">"저장소를 검색하지 못했습니다(이유: \'<xliff:g id="FAIL_REASON">%s</xliff:g>\')."</string>
+  <string name="scanning_sdcard_failed_message">"저장소를 검색하지 못했습니다(이유: \'%s\')."</string>
   <string name="scanning_sdcard_failed_title">"저장소를 검색하지 못했습니다."</string>
   <string name="sdcard_not_mounted_dialog_message">"SD카드가 없거나 사용 불가능합니다, 다른 하나를 추가해주세요."</string>
   <string name="sdcard_not_mounted_dialog_title">SD카드가 발견되지 않음</string>
@@ -980,11 +980,11 @@
   <string name="smart_group_location_label">지역</string>
   <string name="smart_group_location_unavailable">주소 없음</string>
   <string name="sms">"문자 메시지"</string>
-  <string name="sms_assistant">"<xliff:g id="ASSISTANT">%s</xliff:g>(으)로 문자 보내기"</string>
+  <string name="sms_assistant">"%s(으)로 문자 보내기"</string>
   <string name="sms_callback">"콜백 번호로 문자 보내기"</string>
   <string name="sms_car">"카폰으로 문자 보내기"</string>
   <string name="sms_company_main">"회사 기본전화로 문자 보내기"</string>
-  <string name="sms_custom">"문자(<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+  <string name="sms_custom">"문자(%s)"</string>
   <string name="sms_disambig_title">"다음을 사용하여 문자 보내기:"</string>
   <string name="sms_fax_home">"집 팩스로 문자 보내기"</string>
   <string name="sms_fax_work">"직장 팩스로 문자 보내기"</string>
@@ -1043,17 +1043,17 @@
   <string name="unknown">"알 수 없음"</string>
   <string name="unknown_contact_name">알 수 없는 연락처</string>
   <string name="upgrade_in_progress">"주소록을 업데이트하고 있습니다."</string>
-  <string name="upgrade_out_of_memory">"주소록을 업그레이드하는 중입니다. "\n\n"업그레이드 프로세스에는 약 <xliff:g id="SIZE_IN_MEGABYTES">%s</xliff:g>MB의 내부 저장공간이 필요합니다."\n\n"다음 옵션 중 하나를 선택하세요."</string>
+  <string name="upgrade_out_of_memory">"주소록을 업그레이드하는 중입니다. "\n\n"업그레이드 프로세스에는 약 %sMB의 내부 저장공간이 필요합니다."\n\n"다음 옵션 중 하나를 선택하세요."</string>
   <string name="upgrade_out_of_memory_retry">"업그레이드 다시 시도"</string>
   <string name="upgrade_out_of_memory_uninstall">"일부 앱 제거"</string>
   <string name="use_photo_as_primary">"사진 사용"</string>
   <string name="use_photo_as_primary2">"%1$s\'s 의 연락처 사진 이용"</string>
   <string name="user_profile_contacts_list_header">"나"</string>
   <string name="vcard_export_request_rejected_message">"vCard 내보내기 요청이 거부되었습니다. 나중에 시도해 주세요."</string>
-  <string name="vcard_export_will_start_message">"<xliff:g id="FILENAME">%s</xliff:g>을(를) 곧 내보냅니다."</string>
+  <string name="vcard_export_will_start_message">"%s을(를) 곧 내보냅니다."</string>
   <string name="vcard_import_failed">"vCard를 가져오지 못했습니다."</string>
   <string name="vcard_import_request_rejected_message">"vCard 가져오기 요청이 거부되었습니다. 나중에 시도해 주세요."</string>
-  <string name="vcard_import_will_start_message">"<xliff:g id="FILENAME">%s</xliff:g>을(를) 곧 가져옵니다."</string>
+  <string name="vcard_import_will_start_message">"%s을(를) 곧 가져옵니다."</string>
   <string name="vcard_import_will_start_message_with_default_name">"파일을 곧 가져옵니다."</string>
   <string name="vcard_unknown_filename">"연락처"</string>
   <string name="video_chat">"영상 채팅"</string>
@@ -1077,7 +1077,7 @@
   <string name="voicemail_status_messages_waiting">"음성사서함 서버에 연결할 수 없습니다. 새 음성메일이 대기중입니다."</string>
   <string name="voicemail_status_voicemail_not_available">"음성사서함 서버에 연결할 수 없습니다."</string>
   <string name="websiteLabelsGroup">"웹사이트"</string>
-  <string name="widget_name_and_phonetic">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g>(<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+  <string name="widget_name_and_phonetic">"%1$s(%2$s)"</string>
   <string name="wipe_data">데이터 삭제</string>
   <string name="yellowPageNavigationIconLabel">디렉토리</string>
   <string name="yellowPageNavigationLabel">디렉토리</string>

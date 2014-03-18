@@ -118,9 +118,6 @@
   <string name="no_syncable_calendars">달력 없음</string>
   <string name="no_title_label">(제목 없음)</string>
   <string name="not_synced">동기화되지 않음</string>
-  <string name="prefDefault_alerts_vibrateWhen">never</string>
-  <string name="prefDefault_alerts_vibrate_false">never</string>
-  <string name="prefDefault_alerts_vibrate_true">항상</string>
   <string name="prefDialogTitle_vibrateWhen">진동</string>
   <string name="preferences_about_title">정보</string>
   <string name="preferences_alerts_popup_title">팝업 알림</string>

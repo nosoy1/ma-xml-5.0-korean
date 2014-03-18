@@ -280,10 +280,6 @@
   <string name="pref_title_sms_delete">문자 메시지 한도</string>
   <string name="pref_title_system_mms_priority">시스템 메시지 앱 우선순위</string>
   <string name="pref_title_wake_up_screen">화면 켜기</string>
-  <string name="prefDefault_ringtone_repeat">1</string>
-  <string name="prefDefault_vibrate_false">진동 없음</string>
-  <string name="prefDefault_vibrate_true">항상</string>
-  <string name="prefDefault_vibrateWhen">진동 없음</string>
   <string name="preferences_title">설정</string>
   <string name="prepare_send">전송 준비 중...</string>
   <string name="preview">미리보기</string>

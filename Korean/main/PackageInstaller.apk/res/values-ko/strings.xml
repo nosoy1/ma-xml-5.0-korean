@@ -37,8 +37,8 @@
   <string name="other_relative">기타 권한</string>
   <string name="out_of_space_dlg_text">%1$s (이)가 설치되지 않았습니다. 여유공간을 확보하세요</string>
   <string name="out_of_space_dlg_title">저장공간 없음</string>
-  <string name="Parse_error_dlg_text" msgid="1440309982917966479">"패키지를 구문 분석하는 중 문제가 발생했습니다."</string>
-  <string name="Parse_error_dlg_title" msgid="6079580916889596257">"구문분석 오류"</string>
+  <string name="Parse_error_dlg_text">"패키지를 구문 분석하는 중 문제가 발생했습니다."</string>
+  <string name="Parse_error_dlg_title">"구문분석 오류"</string>
   <string name="perm_action_accept">동의</string>
   <string name="perm_action_prompt">묻기</string>
   <string name="perm_action_reject">거부</string>
