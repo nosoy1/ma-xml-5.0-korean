@@ -29,7 +29,7 @@
   <string name="emergency_call_string">긴급 통화</string>
   <string name="error_forbidden">계정에 몇 가지 오류가 있어 동기화가 중단되었습니다.</string>
   <string name="error_not_acceptable">서버에 오류가 있어 동기화가 중단되었습니다.</string>
-  <string name="error_title">동기화 오류: %s</string>
+  <string name="error_title">동기화 오류</string>
   <string name="error_unauthorized">계정인증 횟수 초과로 동기화 사용중지합니다</string>
   <string name="every_day">언제나</string>
   <string name="experimental_validate">유효성 확인</string>
