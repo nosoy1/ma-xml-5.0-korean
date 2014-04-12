@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slideshow_time_entries">
+        <item>5분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>무제한</item>
+    </string-array>
+</resources>

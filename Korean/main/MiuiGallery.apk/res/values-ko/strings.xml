@@ -1,507 +1,302 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+    <string name="photoeditor_name">사진관</string>
+    <string name="loading_failure">사진을 불러오지 못했습니다.</string>
+    <string name="saving_failure">사진이 저장되지 않았습니다.</string>
+    <string name="photo_saved">%s에 사진이 저장되었습니다.</string>
+    <string name="edited_photo_bucket_name">수정됨</string>
+    <string name="save_photo">수정한 사진을 저장할까요?</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="save">저장</string>
+    <string name="autofix">자동 수정</string>
+    <string name="crop">자르기</string>
+    <string name="crossprocess">자르기 과정</string>
+    <string name="documentary">다큐멘터리</string>
+    <string name="doodle">낙서</string>
+    <string name="duotone">듀오톤</string>
+    <string name="facelift">얼굴 강조</string>
+    <string name="facetan">갈색 피부</string>
+    <string name="filllight">가벼운 채색</string>
+    <string name="fisheye">물고기눈</string>
+    <string name="flip">뒤집기</string>
+    <string name="grain">거친 필름</string>
+    <string name="grayscale">B&amp;W</string>
+    <string name="highlight">갖오</string>
+    <string name="lomoish">로모</string>
+    <string name="negative">색 반전</string>
+    <string name="posterize">포스터화</string>
+    <string name="redeye">적목현상 제거</string>
+    <string name="rotate">회전</string>
+    <string name="saturation">채도</string>
+    <string name="sepia">셰피아</string>
+    <string name="shadow">그림자</string>
+    <string name="sharpen">날카롭게</string>
+    <string name="straighten">똑바르게</string>
+    <string name="temperature">따뜻하게</string>
+    <string name="tint">색조</string>
+    <string name="vignette">비네트</string>
+    <string name="crop_tooltip">마커를 드래그하여 사진을 자릅니다.</string>
+    <string name="doodle_tooltip">사진에 낙서하세요.</string>
+    <string name="flip_tooltip">사진을 드래그하여 뒤집습니다.</string>
+    <string name="redeye_tooltip">터치하여 적목현상을 없앱니다.</string>
+    <string name="rotate_tooltip">사진을 드래그하여 회전합니다.</string>
+    <string name="straighten_tooltip">사진을 드래그하여 똑바르게 합니다.</string>
+    <string name="contrast">대비</string>
+    <string name="frame_button">프레임</string>
+    <string name="frame_classic">기본</string>
+    <string name="frame_white">흰색</string>
+    <string name="frame_black">검정색</string>
+    <string name="frame_semicircle">반원</string>
+    <string name="frame_movie">영화</string>
     <string name="app_name">갤러리</string>
-    <!-- Title for picture frame gadget to show in list of all available gadgets -->
-    <string name="gadget_title">사진 액자</string>
-
-    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
     <string name="details_ms">%1$02d:%2$02d</string>
-    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
-    <!-- Activity label. This might show up in the activity-picker -->
-    <string name="movie_view_label">동영상 재생기</string>
-    <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-    <string name="loading_video">동영상 불러오는 중\u2026</string>
-    <string name="loading_image">이미지 불러오는 중\u2026</string>
-
-    <!-- Message shown on the progress dialog to indicate we're loading the
-            account info [CHAR LIMIT=30] -->
-    <string name="loading_account">계정 불러오는 중\u2026</string>
-
-    <!-- Movie View Resume Playing dialog title -->
-    <string name="resume_playing_title">동영상 이어보기</string>
-
-    <!-- Movie View Start Playing dialog title -->
-    <string name="resume_playing_message">%s부터 이어서 재생할까요?</string>
-    <!-- Movie View Start Playing button "Resume from bookmark" -->
-    <string name="resume_playing_resume">이어서 재생</string>
-
-    <!-- Displayed in the title of those albums that are being loaded -->
     <string name="loading">불러오는 중\u2026</string>
-
-    <!-- Displayed in the title of those pictures that fails to be loaded
-         [CHAR LIMIT=50]-->
-    <string name="fail_to_load">불러오기를 실패하였습니다.</string>
-
-    <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
-         [CHAR LIMIT=50]-->
     <string name="no_thumbnail">미리보기 이미지 없음</string>
-
-    <!-- Movie View Start Playing button "Beginning" -->
-    <string name="resume_playing_restart">처음부터</string>
-
-    <!-- Title of a menu item to indicate performing the image crop operation
-         [CHAR LIMIT=20] -->
     <string name="crop_save_text">자르기</string>
-    <!-- Button indicating that the cropped image should be reverted back to the original -->
-    <!-- Hint that appears when cropping an image with more than one face -->
     <string name="multiface_crop_help">얼굴을 터치하여 시작합니다.</string>
-    <!-- Toast/alert that the image is being saved to the SD card -->
     <string name="saving_image">사진 저장 중\u2026</string>
-    <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
     <string name="save_error">자른 사진을 저장하는데 실패하였습니다.</string>
-
-    <!-- menu pick: crop the currently selected image -->
     <string name="crop_label">사진 자르기</string>
-    <!-- Toast/alert that the face detection is being run -->
-
-    <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
     <string name="select_image">사진 선택</string>
-    <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
     <string name="select_video">동영상 선택</string>
-    <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
     <string name="select_item">항목 선택</string>
-    <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
     <string name="select_album">앨범 선택</string>
-    <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
-    <string name="select_group">그룹 선ㅌㄱ</string>
-
-    <!-- Displayed in the title of the dialog for things to do with a picture
-             that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">사진을 다음으로 지정</string>
-    <!-- Toast/alert after saving wallpaper -->
     <string name="camera_setas_wallpaper">배경화면</string>
-
-    <!-- Details dialog "OK" button. Dismisses dialog. -->
     <string name="delete">삭제</string>
     <string name="confirm_delete">정말로 사진을 삭제하시겠습니까?</string>
+    <string name="confirm_delete_cloud_all_item_page" formatted="false">%s 개의사진이 %s 앨범에 있습니다, 정말 삭제하시겠습니까?</string>
+    <string name="action_fail_unknown_error">알수없는 오류로 작업이 실패했습니다.</string>
+    <string name="add_to_cloud_fail_too_many_items">작업을 마치는데 실패했습니다, 너무 많은 항목이 선택되었습니다.</string>
+    <string name="comfirm_delete_current_album">정말 현재 앨범을 지우시겠습니까?</string>
+    <string name="confirm_delete_album" formatted="false">정말 선택된 %s 앨범을 삭제하시겠습니까?(%s 개 포함)?</string>
+    <string name="confirm_delete_system_album">%s 는 시스템 앨범입니다, 정말 지우시겠습니까?</string>
+    <string name="operation_delete_confirm_message_folder">"같은 시간에 폴더와 파일이 지워집니다.
+"</string>
+    <string name="delete_folder">선택된 %1$d 폴더를 지우시겠습니까?</string>
+    <string name="delete_file">%1$d 파일을 지우시겠습니까?</string>
+    <string name="delete_files_and_folders">선택된 %1$d개의 파일 과 %2$d개의 폴더를 지우시겠습니까?</string>
+    <string name="confirm_delete_pictures">%s 사진</string>
+    <string name="confirm_delete_videos">%s 동영상</string>
+    <string name="confirm_delete_this_picture">정말 선택된 사진을 지우시겠습니까?</string>
+    <string name="confirm_delete_this_video">정말 선택된 동영상을 지우시겠습니까?</string>
     <string name="cancel">취소</string>
-    <string name="share">공유</string>
-
-    <!-- String indicating more actions are available -->
     <string name="select_all">전체 선택</string>
-    <string name="deselect_all">전체 선택해제</string>
     <string name="slideshow">슬라이드 쇼</string>
-
     <string name="details">자세히</string>
     <string name="details_title">%2$d개 중 %1$d개의 항목:</string>
     <string name="close">닫기</string>
-
-    <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
-    <string name="switch_to_camera">카메라로 전환</string>
-
-    <!-- String indicating how many media item(s) is(are) selected
-            eg. 1 selected [CHAR LIMIT=30] -->
-    <plurals name="number_of_items_selected">
-        <item quantity="zero">%1$d개 선택 됨</item>
-        <item quantity="one">%1$d개 선택 됨</item>
-        <item quantity="other">%1$d개 선택 됨</item>
-    </plurals>
-
-    <!-- String indicating how many media album(s) is(are) selected
-            eg. 1 selected [CHAR LIMIT=30] -->
-    <plurals name="number_of_albums_selected">
-        <item quantity="zero">%1$d개 선택 됨</item>
-        <item quantity="one">%1$d개 선택 됨</item>
-        <item quantity="other">%1$d개 선택 됨</item>
-    </plurals>
-
-    <!-- String indicating how many media group(s) is(are) selected
-            eg. 1 selected [CHAR LIMIT=30] -->
-    <plurals name="number_of_groups_selected">
-        <item quantity="zero">%1$d개 선택 됨</item>
-        <item quantity="one">%1$d개 선택 됨</item>
-        <item quantity="other">%1$d개 선택 됨</item>
-    </plurals>
-
-    <!-- String indicating timestamp of photo or video -->
     <string name="show_on_map">지도에 표시</string>
-    <string name="rotate_left">왼쪽으로 회전</string>
-    <string name="rotate_right">오른쪽으로 회전</string>
-
-    <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
+    <string name="no_map_app">지도 앱이 없습니다.</string>
     <string name="no_such_item">항목을 찾을 수 없습니다.</string>
-
-    <!-- String used as a menu label. The suer can choose to edit the image
-         [CHAR_LIMIT=20]-->
     <string name="edit">편집</string>
-
-    <!-- String used in a toast message indicating there is no application
-         available to handle a request [CHAR LIMIT=50] -->
     <string name="activity_not_found">이 작업을 완료하기 위한 어플리케이션이 없습니다.</string>
-
-    <!-- String used as a title of a progress dialog. The user can
-         choose to cache some Picasa picture albums on device, so it can
-         be viewed offline. This string is shown when the request is being
-         processed. [CHAR LIMIT=50] -->
-    <string name="process_caching_requests">캐쉬 저장 요청 처리중</string>
-
-    <!-- String used as a small notification label above a Picasa album.
-         It means the pictures of the Picasa album is currently being
-         transferred to local storage, so the pictures can later be viewed
-         offline. [CHAR LIMIT=15] -->
-    <string name="caching_label">캐쉬 저장 중\u2026</string>
-
-    <string name="crop_action">잘라내기</string>
-    <string name="set_as">다음으로 설정</string>
-
-    <!-- String indicating an approximate location eg. Around Palo Alto, CA -->
     <string name="video_err">동영상을 재생할 수 없습니다.</string>
-
-    <!-- Strings for grouping operations in the menu. The photos can be grouped
-         by their location, taken time, or tags. -->
-    <!-- The title of the menu item to let user choose the grouping rule, when
-         pressed, a submenu will shown and user can choose one grouping rule
-         from the submenu. -->
-
-    <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->
     <string name="group_by_location">위치별</string>
-
-    <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->
     <string name="group_by_time">시간별</string>
-
-    <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
     <string name="group_by_tags">태그별</string>
-
-    <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->
     <string name="group_by_faces">사람별</string>
-
-    <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->
     <string name="group_by_album">앨범별</string>
-
-    <!-- Title of a menu item to group photo by size [CHAR LIMIT=30]-->
-    <string name="group_by_size">용량별</string>
-
-    <!-- When grouping photos by tags, the label used for photos without tags
-         [CHAR LIMIT=20]-->
     <string name="untagged">태그 없음</string>
-
-    <!-- When grouping photos by locations, the label used for photos that don't
-         have location information in them [CHAR LIMIT=20]-->
     <string name="no_location">위치정보 없음</string>
-
-    <!-- This toast message is shown when network connection is lost while doing clustering -->
     <string name="no_connectivity">네트워크 문제로 몇몇 위치를 식별할 수 없습니다.</string>
-
-    <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
     <string name="sync_album_error">이 앨범의 사진 다운로드에 실패하였습니다. 나중에 다시 시도해주세요.</string>
-    <!-- This toast message is shown when failed to load the album list data. [CHAR LIMIT=NONE] -->
     <string name="sync_album_set_error">앨범 목록을 불러오는데 실패하였습니다. 나중에 다시 시도해주세요.</string>
-
-    <!-- The title of the menu item to let user choose the which portion of
-         the media items the user wants to see. When pressed, a submenu will
-         appear and user can choose one of "show images only",
-         "show videos only", or "show all" from the submenu. -->
-
-    <!-- Title of a menu item to show images only [CHAR LIMIT=30]-->
     <string name="show_images_only">사진만 표시</string>
-
-    <!-- Title of a menu item to show videos only [CHAR LIMIT=30]-->
     <string name="show_videos_only">동영상만 표시</string>
-
-    <!-- Title of a menu item to show all (both images and videos) [CHAR LIMIT=30]-->
     <string name="show_all">사진과 동영상 표시</string>
-
-    <!-- Title of the StackView AppWidget -->
     <string name="appwidget_title">사진 갤러리</string>
-
-    <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->
     <string name="appwidget_empty_text">사진이 없습니다.</string>
-
-    <!-- Toast message shown when the cropped image has been saved in the
-         download folder [CHAR LIMIT=50]-->
-    <string name="crop_saved">다운로드 폴더에 자른 사진이 저장되었습니다.</string>
-
-    <!-- Toast message shown when the cropped image is not saved
-         [CHAR LIMIT=50]-->
-    <string name="crop_not_saved">자른 사진이 저장되지 않았습니다.</string>
-
-    <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
     <string name="no_albums_alert">사용 가능한 앨범이 없습니다.</string>
-
-    <!-- Toast message shown when we close the AlbumPage because it is empty
-            [CHAR LIMIT=50] -->
-    <string name="empty_album">사진이나 동영상이 하나도 없습니다.</string>
-
-    <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
-    <string name="picasa_posts">글</string>
-
-    <!-- A label describing that the current screen is for the user to pick
-         some albums to be viewable offline [CHAR LIMIT=30] -->
-    <string name="make_available_offline">오프라인에서 사용 가능</string>
-
-    <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
-    <string name="sync_picasa_albums">새로고침</string>
-
-    <string name="sd_explorer">SD카드 탐색</string>
+    <string name="local_albums">저장소 그림</string>
+    <string name="cloud_albums">클라우드 앨범</string>
     <string name="home_my_captured_items">내 캡쳐된 사진</string>
-    <string name="home_recent_albums">즐겨찾는 앨범</string>
-    <string name="all_media">"모든 사진"</string>
-
-    <!-- A label on a button. The user clicks this button after he has
-         finished selection. [CHAR LIMIT=15] -->
     <string name="done">완료</string>
-
-    <!-- String indicating the sequence of currently selected item in the
-            media set eg. 3 of 5 items [CHAR LIMIT=30] -->
-    <string name="sequence_in_set">%2$d개중 %1$d개 항목:</string>
-    <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
     <string name="title">제목</string>
-    <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
     <string name="description">설명</string>
-    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
     <string name="time">시간</string>
-    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+    <string name="details_sharer">공유됨:</string>
+    <string name="me">나</string>
     <string name="location">위치</string>
-    <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
     <string name="path">경로</string>
-    <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
     <string name="width">가로 크기</string>
-    <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
     <string name="height">세로 크기</string>
-    <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
     <string name="orientation">방향</string>
-    <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
     <string name="duration">길이</string>
-    <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
     <string name="mimetype">MIME 유형</string>
-    <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
     <string name="file_size">파일 크기</string>
-    <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
     <string name="maker">제조사</string>
-    <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
     <string name="model">모델명</string>
-    <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
     <string name="flash">플래쉬</string>
-    <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
     <string name="aperture">조리개</string>
-    <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
     <string name="focal_length">포커스 길이</string>
-    <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
     <string name="white_balance">화이트 밸런스</string>
-    <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
     <string name="exposure_time">노출 시간</string>
-    <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
     <string name="iso">ISO</string>
-    <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
-    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
     <string name="unit_mm">mm</string>
-    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
     <string name="manual">수동</string>
-    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
     <string name="auto">자동</string>
-    <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
     <string name="flash_on">사진 찍을 때</string>
-    <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
     <string name="flash_off">플래쉬 안씀</string>
-
-
-    <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
-    <plurals name="make_albums_available_offline">
-        <item quantity="one">앨범 오프라인으로 사용 가능하게 만드는 중.</item>
-        <item quantity="other">앨범 오프라인으로 사용 가능하게 만드는 중.</item>
-    </plurals>
-
-    <!-- Toast message shown after we try to make a local album available offline
-         [CHAR LIMIT=150] -->
-    <string name="try_to_set_local_album_available_offline">
-        이 항목은 휴대전화에 저장되어 오프라인에서 사용 가능합니다.</string>
-
-    <!-- A label shown on the action bar. It indicates that the user is
-         viewing all available albums [CHAR LIMIT=20] -->
     <string name="set_label_all_albums">모든 앨범</string>
-
-    <!-- A label shown on the action bar. It indicates that the user is
-         viewing albums stored locally on the device [CHAR LIMIT=20] -->
     <string name="set_label_local_albums">로컬 앨범</string>
-
-    <!-- A label shown on the action bar. It indicates that the user is
-         viewing MTP devices connected (like other digital cameras).
-         [CHAR LIMIT=20] -->
+    <string name="cloud_media_set_set">클라우드 앨범</string>
     <string name="set_label_mtp_devices">MTP 기기들</string>
-
-    <!-- A label shown on the action bar. It indicates that the user is
-         viewing Picasa albums [CHAR LIMIT=20] -->
-    <string name="set_label_picasa_albums">피카사 앨범</string>
-
-    <!-- Label indicating the amount on free space on the device. The parameter
-         is a string representation of the amount of free space, eg. "20MB".
-         [CHAR LIMIT=20]
-    -->
-    <string name="free_space_format">%s 남음</string>
-
-    <!-- Label of a group of pictures. The size of each picture in this group is
-         less than a certain amount. The parameter is a string representation
-         of that amount, eg. "10MB".
-         [CHAR LIMIT=20]
-    -->
     <string name="size_below">%1$s 이하</string>
-
-    <!-- Label of a group of pictures. The size of each picture in this group is
-         more than a certain amount. The parameter is a string representation
-         of that amount, eg. "10MB".
-         [CHAR LIMIT=20]
-    -->
     <string name="size_above">%1$s 이상</string>
-
-    <!-- Label of a group of pictures. The size of each picture in this group is
-         between two amounts. The parameters are string representations of the two
-         amounts, eg. "10MB", "100MB".
-         [CHAR LIMIT=20]
-    -->
     <string name="size_between">%1$s~%2$s</string>
-
-    <!-- A label shown on the action bar. It indicates that the operation
-         to import media item(s) [CHAR LIMIT=20] -->
     <string name="Import">가져오기</string>
-
-    <!-- A label shown on the action bar. It indicates whether the import
-         operation succeeds or fails. [CHAR LIMIT=20] -->
     <string name="import_complete">가져오기 성공</string>
     <string name="import_fail">가져오기 실패</string>
-
-    <!-- A toast indicating a camera is connected to the device [CHAR LIMIT=30]-->
     <string name="camera_connected">카메라 연결됨</string>
-    <!-- A toast indicating a camera is disconnected [CHAR LIMIT=30] -->
     <string name="camera_disconnected">카메라 연결 해제됨</string>
-    <!-- A label shown on MTP albums thumbnail to instruct users to import
-        [CHAR LIMIT=40] -->
-    <string name="click_import">터치하여 가져오기</string>
-
-    <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
     <string name="widget_type_album">앨범 선택</string>
-    <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
     <string name="widget_type_shuffle">모든 사진 섞기</string>
-    <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
     <string name="widget_type_photo">사진 선택</string>
-
-    <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
     <string name="widget_type">사진 선택</string>
-
-    <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
     <string name="slideshow_dream_name">슬라이드 쇼</string>
-
-    <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
     <string name="albums">앨범</string>
-
-    <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
     <string name="times">시간</string>
-
-    <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
     <string name="locations">위치</string>
-
-    <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->
     <string name="people">사람</string>
-
-    <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
     <string name="tags">태그</string>
-
-    <!-- Group by menu item. [CHAR LIMIT=20] -->
     <string name="group_by">그룹별 보기</string>
-
-    <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
     <string name="settings">설정</string>
-
-    <!-- The title of menu item where user can add a new account -->
     <string name="add_account">계정 추가</string>
-
-    <!-- Add strings for MIUI -->
-    <string name="order_by">정렬 기준</string>
     <string name="set_recent_album">즐겨찾기에 추가</string>
     <string name="remove_recent_album">즐겨찾기에서 삭제</string>
     <string name="set_hidden_album">앨범 숨기기</string>
     <string name="remove_hidden_album">숨기기 취소</string>
-    <string name="all_albums_desc">앨범</string>
-    <string name="all_recent_albums_desc">즐겨찾는 앨범</string>
     <string name="photos">사진</string>
-
-    <!-- single image view -->
+    <string name="tab_lockscreen_text">잠금 화면</string>
+    <string name="tab_wallpaper_text">바탕 화면</string>
+    <string name="tab_all_text">모두 선택</string>
+    <string name="cloud_gallery_space_full">클라우드 갤러리가 꽉 차서 저장에 실패하였습니다.</string>
+    <string name="share_album_space_full">이 공유 앨범이 꽉찼습니다. 불필요한 사진을 지워주세요.</string>
+    <string name="cloud_gallery_recyclebin_full">클라우드 휴지통이 꽉찼습니다. i.xiaomi.com에 접속해서 휴지통을 비워주세요.</string>
+    <string name="sync_history_power_on">충전중일때만 사진 동기화</string>
+    <string name="sync_only_in_wifi_alert">Wi-Fi에서만 업로드를 끄는 것은 많은 데이터를 사용할 수 있습니다. 정말 끄시겠습니까?</string>
+    <string name="sync_only_in_wifi">Wi-Fi에서만 동기화</string>
+    <string name="sync_only_in_wifi_summary">비활성화시 데이터 요금이 많이 나갈 수 있습니다.</string>
+    <string name="alert">알림</string>
+    <string name="gallery_cloud_provider_name">갤러리</string>
+    <string name="sync_album">앨범 동기화</string>
+    <string name="sync_album_summary">사진과 스크린샷을 MiCloud 앨범에 업로드하기</string>
+    <string name="open_sync_title">동기화 필요</string>
+    <string name="alert_message_open_sync">동기화가 필요합니다, 동기화를 수행할까요?</string>
+    <string name="open">동기화 열기</string>
+    <string name="cloud_gallery_no_pictures">MiCloud에 사진이 없습니다.</string>
+    <string name="no_network_connected">네트워크에 연결할 수 없습니다.</string>
+    <string name="initial_cloud_text">어디서나, 언제나 사진을 보세요.</string>
+    <string name="initial_cloud_button_text">MiCloud 사용해보기</string>
+    <string name="storage_no_space">용량이 꽉찼습니다.</string>
+    <string name="add_to_cloud_album">클라우드에 추가</string>
+    <string name="move_to_cloud_album">클라우드로 이동</string>
+    <string name="move">이동</string>
+    <string name="add_to_cloud_successfully_message">MiCloud 앨범에 추가되었습니다.</string>
+    <string name="add_to_cloud_space_full_message">MiCloud 앨범이 꽉찼습니다.</string>
+    <string name="add_to_cloud_local_space_full_message">저장소가 꽉찼거나 준비되지 않았습니다.</string>
+    <string name="add_to_cloud_file_exist_message">사진이 이미 선택된 앨범에 있습니다.</string>
+    <string name="add_to_cloud_exceeded_the_size_message">사진 크기가 너무 큽니다.</string>
+    <string name="add_to_cloud_type_not_support_message">이 파일 형식은 지원되지 않습니다.</string>
+    <string name="add_to_cloud_image_limit_exceeded_message">그림 한도가 초과되었습니다.</string>
+    <string name="file_not_exist_message">파일을 찾을 수 없습니다.</string>
+    <string name="add_to_cloud_failed_message_with_count">%2$s 항목이 %1$s 클라우드 앨범에 추가되지 않았습니다.</string>
+    <string name="add_to_cloud_reasons" />
+    <string name="add_to_cloud_unknow_reasons">An unknown error occurred</string>
+    <string name="cant_delete_cloud_album">지우는데 실패했습니다: %s 는 시스템 앨범이거나 다른 사람과 공유중입니다.</string>
+    <string name="cannot_delete_sharer_photo">다른 사용자가 올린 %s 항목을 지울 수 없습니다.</string>
+    <string name="share_album">앨범 공유</string>
+    <string name="share_album_owner">주인</string>
+    <string name="loading_members">회원 불러오는중...</string>
+    <string name="scan_qr_code_buttom_text">QR 코드를 읽어서 앨범을 확인하세요.</string>
+    <string name="request_qr_code_failed">QR코드 요청이 실패했습니다. 눌러서 다시 시도하세요.</string>
+    <string name="retry_to_request_qr_code">재시도</string>
+    <string name="album_member">%s 앨범 회원</string>
+    <string name="add_sharer">공유자 추가</string>
+    <string name="album_name">앨범 이름</string>
+    <string name="already_apply_album">%1$s?(을)를 열까요?</string>
+    <string name="no_picture_or_video">사진이나 동영상이 없습니다.</string>
+    <string name="camera_view_none_message">캡쳐된 사진은 여기에 표시됩니다.</string>
+    <string name="none_picture">갤러리에서 저장된 사진을 찾을 수 없습니다!</string>
+    <string name="show_hidden_albums">숨겨진 앨범 보이기</string>
+    <string name="not_show_hidden_albums">숨겨진 앨범 보이지 않기</string>
+    <string name="fail_to_sync_album">앨범 동기화에 실패하였습니다! 네트워크 상태를 확인해 주십시오.</string>
+    <string name="sync_album_in_proecess">앨범 동기화중....잠시만 기다려 주세요.</string>
+    <string name="retry_to_create_album">재시도</string>
+    <string name="share_current_album">최근 앨범 공유하기</string>
+    <string name="cloud_share_guide_title">Mi클라우드 공유하기!</string>
+    <string name="cloud_share_guide_message">친구들과 당신의 Mi클라우드 앨범을 공유할 수 있습니다.</string>
+    <string name="cloud_be_shared_guide_title">이 앨범은 친구가 공유하였습니다.</string>
+    <string name="cloud_be_shared_guide_message">당신은 친구들의 사진을 볼 수 있으며, 앨범에 사진을 추가함으로써 서로 자신의 사진을 볼 수 있게 됩니다.</string>
+    <string name="cloud_owner_album_share_guide">이 앨범을 친구와 공유할 수 있습니다.</string>
+    <string name="view_sharers">이 앨범을 공유한 사람들 보기</string>
+    <string name="camera_path">/DCIM/Camera</string>
     <string name="open_single_image_failure">사진 불러오기 실패!</string>
-    <string name="already_saved">사진이 이미 %s에 저장되었습니다.</string>
-    <string name="failure_external_storage_not_writable">외부 저장공간이 읽기 전용입니다!</string>
-    <string name="save_pic_error">사진 저장 실패!</string>
-    <string name="save_pic_to_success">%s\n에 사진이 저장되었습니다.</string>
-    <string name="save_to_sdcard">SD카드에 저장</string>
     <string name="damaged_file">파일이 손상되었습니다.</string>
-    <string name="camera_folder_display_name">카메라 사진</string>
-    <string name="miui_capture_screen_folder_display_name">스크린샷</string>
-    <string name="internal_camera_folder_display_name">내부 카메라 사진</string>
-    <string name="internal_miui_capture_screen_folder_display_name">내부 스크린샷</string>
-    <string name="miliao_folder_display_name">MiTalk</string>
-    <string name="miliao_painting_folder_display_name">MiTalk 페인팅</string>
     <string name="must_pick_file">사진 선택</string>
-    <string name="play_video">동영상 재생</string>
     <string name="set_lock_or_wallpaper">배경화면으로 지정</string>
+    <string name="set_lock_and_wallpaper">배경화면 설정 중....</string>
     <string name="set_wallpaper">바탕화면 배경으로 지정</string>
     <string name="set_lockscreen">잠금 화면 배경으로 지정</string>
-    <string name="apply_pic_for">다음으로 설정:</string>
     <string name="wallpaper">바탕화면 배경</string>
-    <string name="screen_saver_wallpaper">잠금화면 배경</string>
     <string name="contact_photo">연락처 사진</string>
+    <string name="projection">투영</string>
     <string name="cut">자르기</string>
-    <string name="turn_left">왼쪽으로 회전</string>
-    <string name="turn_right">오른쪽으로 회전</string>
-    <string name="disallowed_operation">이 미디어는 이 기능을 지원하지 않습니다.</string>
     <string name="more">더 보기</string>
-    <string name="running_face_detection">얼굴 인식중, 잠시만 기다려주세요...</string>
     <string name="deleting_files">파일 삭제 중...</string>
-    <string name="loading_files">불러오는 중...</string>
-    <string name="open_map">지도 열기</string>
-    <string name="unknown_location">알 수 없는 위치</string>
-    <string name="sending_image_title">사진 보내기 (%s)</string>
-    <string name="sending_video_title">동영상 보내기 (%s)</string>
-
-    <!-- Preference -->
+    <string name="bigscreen_slide_exit">슬라이드 쇼 나가기</string>
+    <string name="bigscreen_slide_fail_cause_loading">이미지가 로딩 된 후에 슬라이드쇼를 불러와 주십시오.</string>
+    <string name="defalt_local_mobile">모바일</string>
+    <string name="cloudfolder_name_reserved">폴더 이름이 지정되었습니다.</string>
+    <string name="cloudfolder_contain_invalidate_char">폴더 이름에는 \'%,$\'같은 특수문자를 넣을 수 없습니다.</string>
+    <string name="cloudfolder_cannot_start_with">폴더 이름은 \'%,$\'같은 특수문자로 시작할 수 없습니다.</string>
+    <string name="cloudfolder_name_cannot_empty">폴더 이름을 입력해 주세요.</string>
+    <string name="add_to_cloud_folder">클라우드 폴더에 추가하기</string>
+    <string name="create_new_cloud_folder">새로운 클라우드 폴더 만들기</string>
+    <string name="input_cloudfolder_name">클라우드 폴더 이름</string>
+    <string name="cloudfolder_already_exists">클라우드 폴더가 이미 존재 합니다.</string>
     <string name="other_category">기타 설정</string>
     <string name="show_hidden_album">숨겨진 앨범 보이기</string>
     <string name="auto_create_recent_album">앨범 즐겨찾기 자동 생성</string>
+    <string name="photo_page_always_rotate">사진 자동 회전</string>
+    <string name="auto_create_recent_album_over_ten_times">10회 이상 방문한 앨범을 자동으로 즐겨찾기에 추가합니다.</string>
     <string name="not_auto_create_recent_album">앨범 즐겨찾기 자동으로 생성하지 않음</string>
     <string name="auto_create_recent_album_confirm">이 기능을 끄면 자동으로 생성된 즐겨찾기 정보가 삭제됩니다. 수동으로 지정한 즐겨찾기의 경우 영향을 받지 않습니다.</string>
-    <string name="auto_create_recent_album_over_ten_times">10회 이상 방문한 앨범을 자동으로 즐겨찾기에 추가합니다.</string>
-    <string name="expand_album_in_home_page">홈 화면에 앨범 펼치기</string>
-    <string name="page_category">분류</string>
     <string name="slideshow_category">슬라이드 쇼</string>
     <string name="slideshow_interval">슬라이드 쇼 간격</string>
     <string name="slideshow_interval_dialog_title">슬라이드 쇼 간격은 1초 이상으로 지정해야 합니다.</string>
     <string name="slideshow_interval_invalid">슬라이드 쇼 간격은 1~3600초 사이여야 합니다. 기본값을 사용합니다.</string>
     <string name="slideshow_repeat_mode">반복</string>
     <string name="clear_thumbnail_cache">미리보기 캐쉬 삭제</string>
+    <string name="clear_thumbnail_cache_summary">갤러리 탐색시 생성된 썸네일 이미지를 지워 공간을 확보합니다.</string>
     <string name="clear_thumbnail_cache_confirm">미리보기 이미지들을 삭제합니다. 갤러리가 나중에 사진을 스캔하여 다시 생성할 것입니다.</string>
     <string name="cleaning_cache">캐쉬 삭제 중...</string>
     <string name="seconds">초</string>
-
+    <string name="screensaver_category">화면보호기</string>
+    <string name="screensaver_activate_mode">화면보호기 슬라이드쇼</string>
+    <string name="screensaver_activate_only_charging">충전할때만 화면보호기 활성화</string>
+    <string name="screensaver_path">화면 보호기 앨범:</string>
+    <string name="screensaver_path_not_set">지정되지 않음</string>
+    <string name="set_screensaver_path_title">화면보호기 슬라이드 쇼</string>
+    <string name="set_screensaver_path_message">이 앨범이 화면을 끈 5초 후 표시됩니다.</string>
+    <string name="set_screensaver_path_message_if_only_charging">이 앨범에 있는 사진들은 기기가 충전되는 동안만 표시됩니다.</string>
+    <string name="slideshow_time_select_title">슬라이드 쇼 시간 선택</string>
+    <string name="slideshow_time_title">슬라이드 쇼 시간</string>
     <string name="rename_failed">이름 바꾸기 실패</string>
-    <string name="rename_failed_duplicated_name">해당 이름의 사진이 이미 있어 이름을 바꿀 수 없습니다.</string>
-
     <string name="warn">경고</string>
     <string name="send_multiple_files_hint_format">다중 파일 전송 (%s)</string>
-
-    <string name="no_file">파일이 없습니다.</string>
-    <string name="no_files">폴더가 비어있습니다.</string>
     <string name="send">전송</string>
+    <string name="select_too_much_to_send_tips">선택하신 사진의 용량이 너무 큽니다. 전송가능한 최대 용량은 %d입니다.</string>
+    <string name="pick_too_much_tips">너무 많은 항목을 선택하셧습니다.(최대 %d 항목)</string>
     <string name="sd_not_available">SD카드가 해제되었거나 사용이 불가능합니다.</string>
-    <string name="confirm_know">확인</string>
-    <string name="image_property">사진 속성</string>
-    <string name="video_property">동영상 속성</string>
-    <string name="cancel_bookmark">즐겨찾기에서 제거</string>
-    <string name="add_bookmark">즐겨찾기에 추가</string>
-    <string name="sd_folder">SD카드 폴더</string>
-    <string name="operation_delete_confirm_message">선택된 파일이나 폴더가 SD카드에서 삭제될 것입니다.</string>
+    <string name="internal_sd_card">내부 SD카드</string>
+    <string name="internal_sd_card_hm">내부 저장소</string>
+    <string name="external_sd_card">SD카드</string>
+    <string name="external_usb_device">USB 장치</string>
+    <string name="external_usb_device_hm">이동식 usb 저장장치</string>
     <string name="menu_item_sort">정렬</string>
     <string name="menu_item_sort_name_asc">이름 (A-Z)</string>
     <string name="menu_item_sort_name_desc">이름 (Z-A)</string>
@@ -511,70 +306,187 @@
     <string name="menu_item_sort_visit_desc">방문수 (내림차순)</string>
     <string name="menu_item_sort_date_asc">날짜 (오름차순)</string>
     <string name="menu_item_sort_date_desc">날짜 (내림차순)</string>
-    <string name="operation_send">전송</string>
     <string name="operation_rename">이름 바꾸기</string>
-    <string name="operation_delete">삭제</string>
-    <string name="operation_info">자세히</string>
-    <string name="operation_cancel">취소</string>
+    <string name="operation_share">공유</string>
     <string name="operation_refresh">새로고침</string>
+    <string name="operation_set_as_screensaver">화면보호기로 지정하기</string>
+    <string name="operation_unset_as_screensaver">화면보호기 취소하기</string>
+    <string name="operation_add_picture">사진 추가</string>
     <string name="how_many_videos">%d개의 동영상</string>
     <string name="how_many_sub_folders">%d개의 폴더</string>
+    <string name="directory_info_divider">\'I\'</string>
     <string name="how_many_pics">%d개의 사진</string>
-
-    <string name="file_info_title">제목:</string>
-    <string name="file_info_path">경로:</string>
-    <string name="file_info_geo_location">위치:</string>
-    <string name="file_info_size">크기:</string>
-    <string name="file_info_dimension">해상도:</string>
-    <string name="file_info_create_time">생성일:</string>
-    <string name="file_info_duration">길이:</string>
-
     <string name="global_setting">설정</string>
-
-    <string name="no_storage_title">저장공간 없음</string>
-    <string name="no_storage_message">사용 가능한 외부 저장공간이 없습니다.</string>
-    <string name="show_details">자세히</string>
-    
-	<string name="cloud_gallery_space_full">클라우드 갤러리가 꽉 차서 저장에 실패하였습니다.</string>
-	<string name="cloud_media_set_set">클라우드 앨범</string>
-	<string name="message_no_delete_access">접근이 거부되었습니다: %s</string>
-	<string name="move_cloud_data">클라우드 갤러리 데이터가 이동되었습니다: %s</string>
-	<string name="no_storage_disable_cloud_albums">클라우드 앨범이 비활성화 되었습니다. 외부 저장공간이 활성화되고 다시 시도해주세요.</string>
-	<string name="fail_init_gallery_db_helper">저장공간이 꽉 차 갤러리 데이터베이스를 만들 수 없습니다.</string>
-	<string name="no_map_app">지도 앱이 없습니다.</string>
-
-	<string name="cloud_albums">클라우드 앨범</string>
-	<string name="cloud_gallery_setting">클라우드 앨범 설정</string>
-	<string name="alert">알림</string>
-	<string name="alert_message_sync_histoy_power_on">사진은 충전중일때만 동기화 됩니다. 설정 메뉴에서 동기화 가능 시점을 바꿀 수 있습니다.</string>
-	<string name="gallery_cloud_provider_name">갤러리</string>
-	<string name="sync_history_power_on">충전중일때만 사진 동기화</string>
-	<string name="sync_history_power_on_summary">비활성화시 배터리가 빠르게 소모될 수 있습니다.</string>
-	<string name="sync_only_in_wifi">Wi-Fi에서만 동기화</string>
-	<string name="sync_only_in_wifi_summary">비활성화시 데이터 요금이 많이 나갈 수 있습니다.</string>
-
-	<string name="crop_fail_to_load_image">이미지 잘라내기에 실패하였습니다.</string>
-
-	<string name="error_should_not_select_image">이미지 파일은 선택할 수 없습니다.</string>
-	<string name="error_should_not_select_video">동영상 파일은 선택할 수 없습니다.</string>
-
-	<string name="external_sd_card">SD카드</string>
-	<string name="external_usb_device">USB 장치</string>
-	<string name="how_many_volumes">%d개의 저장장치</string>
-	<string name="internal_sd_card">내부 SD카드</string>
-	<string name="storage_all_volumes">모든 저장장치</string>
-
-	<string name="account_not_login">Xiaomi 계정에 로그인하여 클라우드와 동기화를 할 수 있습니다. 클라우드 동기화를 사용하면 모든 사진들이 자동으로 서버에 업로드 되어 편리합니다.</string>
-	<string name="alert_message_initial_cloud">이제 Wi-Fi에 연결되어 있으면 사진들을 자동으로 업로드 할 것입니다.</string>
-	<string name="loading_thumbnail">썸네일 다운로드 중</string>
-	<string name="loading_will_cost">사진을 받으려면 데이터 연결이 필요합니다. (약 %1$dK)</string>
-	<string name="login_account">Xiaomi 계정에 로그인 및 동기화</string>
-	<string name="open_sync">지금 동기화</string>
-	<string name="sync_not_open">클라우드 동기화를 사용하면 모든 사진들이 자동으로 서버에 업로드 되어 편리합니다.</string>
-	
-	<string name="clear_thumbnail_cache_summary">갤러리 탐색시 생성된 썸네일 이미지를 지워 공간을 확보합니다.</string>
-	<string name="sync_album_summary">사진과 스크린샷을 MiCloud 앨범에 업로드하기</string>
-	
-	<string name="share_album">앨범 공유</string>
-
+    <string name="no_storage_disable_cloud_albums">클라우드 앨범이 비활성화 되었습니다. 외부 저장공간이 활성화되고 다시 시도해주세요.</string>
+    <string name="message_no_delete_access">접근이 거부되었습니다: %s</string>
+    <string name="message_no_delete_access_with_count">%d파일이나 폴더를 지울 수 없습니다. 파일의 권한이나 파일이 존재하는지 체크해보세요.</string>
+    <string name="fail_init_gallery_db_helper">저장공간이 꽉 차 갤러리 데이터베이스를 만들 수 없습니다.</string>
+    <string name="crop_fail_to_load_image">이미지 잘라내기에 실패하였습니다.</string>
+    <string name="error_should_not_select_image">이미지 파일은 선택할 수 없습니다.</string>
+    <string name="error_should_not_select_video">동영상 파일은 선택할 수 없습니다.</string>
+    <string name="storage_all_volumes">모든 저장장치</string>
+    <string name="settings_i_xiaomi_com">클라우드 저장 공간을 관리하려면 i.xaomi.com에 로그인해주세요.</string>
+    <string name="loading_thumbnail">썸네일 다운로드 중</string>
+    <string name="video_not_exist">비디오를 찾을 수 없습니다!</string>
+    <string name="loading_video">동영상 불러오는 중\u2026</string>
+    <string name="loading_image">이미지 불러오는 중\u2026</string>
+    <string name="loading_suspend">다운로드가 일시 중단되었습니다. 와이파이가 연결되면 재개합니다.</string>
+    <string name="confirm_download_video_title">비디오 다운로드</string>
+    <string name="confirm_download_video_message">비디오를 다운로드 해야합니다! 와이파이가 연결되면 재개합니다.</string>
+    <string name="image_download_item_title">이미지 다운로드(%s)</string>
+    <string name="item_not_sync">이 항목은 클라우드와 동기화되지 않았으며, 다운로드 할 수 없습니다.</string>
+    <string name="cloud_album_more_settings">클라우드 앨범 설정</string>
+    <string name="browse_category">사진 찾아보기</string>
+    <string name="photo_page_save_image">저장</string>
+    <string name="photo_page_save_uri_image_ok">카메라 디렉토리에 사진 저장</string>
+    <string name="photo_page_save_uri_image_fail">사진 저장에 실패하였습니다.</string>
+    <string name="albumset_page_title_separator"> | </string>
+    <string name="cloud_tab_all">모두</string>
+    <string name="cloud_tab_albums">앨범</string>
+    <string name="cloud_tab_locations">지역</string>
+    <string name="cloud_album_set_create">새로 추가된 파일</string>
+    <string name="cloud_album_set_scan_qr_code">QR코드</string>
+    <string name="scan_qr_code_failure">QR코드 스캔에 실패하였습니다.</string>
+    <string name="big_screen_alertdialog_title">투영기</string>
+    <string name="by_sms">SMS</string>
+    <string name="by_email">이메일</string>
+    <string name="by_others">다른 매체...</string>
+    <string name="enter_email_hint">이메일 주소 입력</string>
+    <string name="messagelist_sender_self">나</string>
+    <string name="adding_recipients">수신자 추가중...</string>
+    <string name="pick_too_many_recipients">너무 많은 수신자</string>
+    <string name="cannot_send_message">"메시지를 보낼 수 없습니다"</string>
+    <string name="has_invalid_recipient">알수없는 수신자 %1$s</string>
+    <string name="to_count">총 %d </string>
+    <string name="context_menu_add_contact">주소록에 추가</string>
+    <string name="context_menu_copy_notice">클립보드에 복사되었습니다.</string>
+    <string name="recipient_editor_count_format">%d</string>
+    <string name="menu_view_contact">연락처 보기</string>
+    <string name="invalid_recipient_message">올바르지 않는 수신자 또는 메시지를 받을 수 없는 상태입니다.</string>
+    <string name="cannot_send_message_reason">메시지에 유효한 수신자가 없습니다.</string>
+    <string name="too_many_recipients">메시지에 너무 많은 수신자가 있습니다.(%1$s)%2$s 가 허용되는 최대 수신자입니다.</string>
+    <string name="context_menu_copy">복사</string>
+    <string name="try_to_send">전송 시도</string>
+    <string name="email_picker_title">공유 이메일 추가</string>
+    <string name="request_sms_url_failed">SMS로 공유하는데 필요한 주소를 가져오는데 실패했습니다.</string>
+    <string name="request_sms_url_title">힌트</string>
+    <string name="request_sms_url_msg">SMS 공유를 위한 주소를 요청중입니다. 잠시 기다려주세요</string>
+    <string name="fail_to_pick_email">유효하지 않는 이메일입니다.</string>
+    <string name="share_by_email_successfully">이메일로 %1$s가 성공적으로 공유되었습니다.</string>
+    <string name="share_by_email_start">백그라운드에서 %1$s 공유가 준비중입니다.</string>
+    <string name="exit_share">앨범 종료</string>
+    <string name="exit_share_in_process">앨범을 종료중입니다. 잠시 기다려주세요...</string>
+    <string name="exit_share_successfully">%1$s 앨범을 성공적으로 종료하였습니다.</string>
+    <string name="exit_share_failed">%1$s 앨범을 종료하는데 실패했습니다.</string>
+    <string name="cancel_hint">작업이 실패하였습니다.</string>
+    <string name="fail_hint">작업 실패</string>
+    <string name="kick_sharer">공유자 삭제</string>
+    <string name="kick_sharer_successfully">성공적으로 공유자가 제거되었습니다.</string>
+    <string name="kick_sharer_failed">공유자를 삭제하는데 실패했습니다.</string>
+    <string name="accept_or_deny">%1$s shared album %2$s with you.</string>
+    <string name="accept">동의</string>
+    <string name="deny">거부</string>
+    <string name="enable_cloud_for_sharing">MiCloud 앨범을 활성화 해 공유된 사진을 확인하세요.</string>
+    <string name="operation_in_process">작업중...</string>
+    <string name="operation_failed">작업 실패!</string>
+    <string name="operation_successful">성공적으로 공유되었습니다.</string>
+    <string name="invalid_invition_url">초대 주소가 올바르지 않음</string>
+    <string name="user_alias_self">직접</string>
+    <string name="kick_owner_user_title">이 회원을 지우시겠습니까?</string>
+    <string name="kick_owner_user_positive_button_text">삭제</string>
+    <string name="initializing_cloud">클라우드 앨범 준비중...</string>
+    <string name="open_public_title">공용으로 공유</string>
+    <string name="open_public_message">주소 생성후 친구에게 전송</string>
+    <string name="publishing">제작중, 잠시 기다려주세요...</string>
+    <string name="publish_succeeded">앨범 제작됨</string>
+    <string name="publish_failed">제작에 실패했습니다.</string>
+    <string name="unpublish_succeeded">앨범이 제작되지 않았습니다.</string>
+    <string name="unpublish_failed">제작에 실패했습니다.</string>
+    <string name="send_public_url">앨범 주소 보내기</string>
+    <string name="public_url_descript">아무나 주소를 가지고 있을 경우 앨범에 접근할 수 있습니다.</string>
+    <string name="share_public_url_text">%1$s 앨범을 공유했습니다. %2$s(을)를 탐색하세요.</string>
+    <string name="unpublishing">제작 중지중, 잠시 기다려주세요.</string>
+    <string name="operation_too_often">작업 주기가 만료되었습니다. 1분 후 다시 시도해주세요.</string>
+    <string name="cannot_remove_creator">주인을 지울 수 없습니다.</string>
+    <string name="exit">종료</string>
+    <string name="album_share_exit_confirm">정말 공유된 앨범을 종료하시겠습니까?</string>
+    <string name="get_album_info_in_process">"공유 앨범 정보를 가져오는 중입니다. 잠시 기다려주세요."</string>
+    <string name="album_share_stat_content">새 공유 초대</string>
+    <string name="album_share_kicked">%1$s에서 제거되었습니다.</string>
+    <string name="album_share_title_new_album">새 공유 앨범</string>
+    <string name="album_share_subtitle_not_ready">앨범 정보를 이용할 수 있습니다. 눌러서 내려받으세요.</string>
+    <string name="album_share_subtitle_requesting">앨범 정보 다운로드중,</string>
+    <string name="album_share_subtitle_invited">%1$s 에서 공유되었습니다. 동의하시겠습니까?</string>
+    <string name="album_share_subtitle_normal">%1$s에서 공유됨</string>
+    <string name="album_share_subtitle_accepting">%1$s의 초대 수락중</string>
+    <string name="album_share_subtitle_denying">%1$s의 초대 건너뛰는중</string>
+    <string name="album_share_subtitle_quitting">%1$s의 초대 닫는중</string>
+    <string name="system_album">시스템 앨범</string>
+    <string name="owner_album_subtitle">%1$s 회원끼리 공유됨</string>
+    <string name="album_quota_fulfiled">"앨범을 생성할 수 없습니다. 앨범 수가 초과되었습니다."</string>
+    <string name="image_quota_fulfiled">"이미지를 만들 수 없습니다. 용량이 초과되었습니다."</string>
+    <string name="sharer_quota_fulfiled">"공유 회원을 추가할 수 없습니다. 한도가 초과되었습니다.."</string>
+    <string name="gallery_setting">설정</string>
+    <string name="error_unknown_host">알수없는 주소입니다. 인터넷 연결을 확인해주세요.</string>
+    <string name="error_repeat_apply">이미 이 앨범을 공유하셨습니다.</string>
+    <string name="error_album_not_exist">"앨범이 존재하지 않습니다."</string>
+    <string name="error_invalid_link">이 링크는 없거나 만료되었습니다. 앨범 소유자에게 새 링크를 요청하세요.</string>
+    <string name="error_socket_timeout">네트워크 시간초과, 나중에 다시 시도해주세요.</string>
+    <string name="error_cloud_not_active">MiCloud 앨범 사용하지 않음</string>
+    <string name="cloud_camera_display_name">정렬되지 않음</string>
+    <string name="camera_folder_display_name">카메라 사진</string>
+    <string name="cloud_screenshots_display_name">스크린샷</string>
+    <string name="miui_capture_screen_folder_display_name">스크린샷</string>
+    <string name="internal_camera_folder_display_name">내부 카메라 사진</string>
+    <string name="internal_miui_capture_screen_folder_display_name">내부 스크린샷</string>
+    <string name="miliao_folder_display_name">MiTalk</string>
+    <string name="miliao_painting_folder_display_name">MiTalk 페인팅</string>
+    <string name="miliao_saved_folder_display_name">MiTalk 저장됨</string>
+    <string name="mishop_saved_folder_display_name">MiShop 저장소</string>
+    <string name="demo_video_folder_display_name">예시 비디오</string>
+    <string name="ucdownloads_screenshot">UC 브라우저</string>
+    <string name="tencent_mobile_qq_img_save">QQ2012</string>
+    <string name="androidesk_wallpapers">안드로이드 데스크 배경화면</string>
+    <string name="dcim_opaipic">Opaipic</string>
+    <string name="mtxx">MTXX</string>
+    <string name="miliao_saved">MiChat</string>
+    <string name="tencent_qq_hd_pic">QQ HD</string>
+    <string name="immomo_camera">Immomo</string>
+    <string name="weikan_weikan">Weikan TV</string>
+    <string name="tencent_qzonepic">Qzone</string>
+    <string name="qsbk_save">QSBK</string>
+    <string name="sina_weibo_save">Weibo</string>
+    <string name="qqbrowser_img">QQ Browser</string>
+    <string name="android_tencent_tencent_weibo">Tencent Weibo</string>
+    <string name="netease_newsreader_netease_down_pic">Netease Newsreader</string>
+    <string name="renren_image">RenRen</string>
+    <string name="ppmm_gallery">PPMM</string>
+    <string name="dcim_100media">Taobao TMall</string>
+    <string name="beautyphone">Beauty Phone</string>
+    <string name="dcim_viva_pics">VIVA</string>
+    <string name="baidu_flyflow_downloads">Baidu Browser</string>
+    <string name="mtgif">MTGIF</string>
+    <string name="autohomemain">Autohomemain</string>
+    <string name="baidu_bdmobile_downloads">Baidu Mobile</string>
+    <string name="tieba">Tie Ba</string>
+    <string name="scan_barcode_to_join">앨범에 가입하기 위해 QR코드를 스캔하세요.</string>
+    <string name="where_is_barcode">QR코드가 무엇인가요?</string>
+    <string name="scan_barcode_guide">앨범의 QR코드를 확인하기 위해, 위의 오른쪽에 있는 공유 아이콘을 눌러보세요.</string>
+    <string name="confirm">확인</string>
+    <string name="click_top_right">오른쪽에 있는 아이콘을 누르세요.</string>
+    <string name="there_is_no_image">사진이 없습니다.</string>
+    <string name="preparing_data_to_delete">이미지 데이터를 지우기 위해 준비하는 중입니다.</string>
+    <string name="picker_tab_camera">카메라</string>
+    <string name="picker_no_items_selected">아무것도 선택되지 않음</string>
+    <string name="picker_select_album_title_empty">앨범 선택</string>
+    <string name="picker_no_album_selected">선택된 앨범이 없습니다.</string>
+    <string name="download">다운로드</string>
+    <string name="confirm_download">"%s를 다운받아야 합니다. 이 팁은 다시 표시되지 않습니다."</string>
+    <string name="download_fail">다운로드 실패!</string>
+    <string name="download_fail_confirm_continue">%s (을)를 다운받는데 실패했습니다. 계속 진행하시겠습니까?</string>
+    <string name="make_download_dir_fail">폴더 생성에 실패했습니다.</string>
+    <string name="delete_smb_file_fail">Smb 파일을 지우는데 실패했습니다.</string>
+    <string name="new_device_tips">새 기기가 발견되었습니다. 눌러서 확인</string>
+    <string name="time_line_view">타임라인_보기</string>
+    <string name="folder_holder_file">File placeholder</string>
 </resources>
