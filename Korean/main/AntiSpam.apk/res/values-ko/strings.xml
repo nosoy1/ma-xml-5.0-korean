@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="ad_block_hint">%d 차단됨</string>
+  <string name="ad_permission_hint">"광고 차단기를 이용할 경우 앱의 실행속도가 느려지거나 정상적으로 작동되지 않을 수 있습니다."</string>
+  <string name="ad_single_block_hint">차단됨</string>
   <string name="app_name">차단</string>
   <string name="bl_block_info" formatted="false">차단됨: %d 번호, %d 세부 사항</string>
   <string name="bl_no_blacklist">차단목록이 비었습니다.</string>
@@ -19,7 +22,6 @@
   <string name="dlg_clear_current_ok">삭제</string>
   <string name="dlg_clear_current_sms">이 번호로 온 모든 메시지를 지우시겠습니까?</string>
   <string name="dlg_delete_keyword">선택된 키워드를 지울까요?</string>
-  <string name="dlg_delete_vip">이 허용목록의 번호를 지울까요?</string>
   <string name="dlg_edit_keyword">키워드 수정</string>
   <string name="dlg_import_blacklist">차단목록에서 가져오는 중...</string>
   <string name="dlg_import_whitelist">허용목록에서 가져오는중...</string>
@@ -38,7 +40,6 @@
   <string name="menu_add">추가</string>
   <string name="menu_add_into_contact">기존 연락처에서 추가</string>
   <string name="menu_add_new_contact">새 연락처</string>
-  <string name="menu_add_vip_custom">허용목록 구성원 추가</string>
   <string name="menu_bl_add_contact">연락처</string>
   <string name="menu_bl_add_manual">추가</string>
   <string name="menu_bl_call_log">차단된 통화기록 확인</string>
@@ -56,38 +57,7 @@
   <string name="menu_remove">삭제</string>
   <string name="menu_restore">메시지 앱으로 복구</string>
   <string name="menu_sms">메시지 전송</string>
-  <string name="qm_auto_button_title">예약됨</string>
-  <string name="qm_auto_setting_group">자동으로 켜고끄기</string>
-  <string name="qm_auto_time_setting">시간 설정</string>
-  <string name="qm_auto_time_setting_summary">시작:%1$s, 끝:%2$s</string>
-  <string name="qm_auto_time_turn_off">까지</string>
-  <string name="qm_auto_time_turn_off_title">무음 모드를 해제할 시간을 선택하세요.</string>
-  <string name="qm_auto_time_turn_on">시작</string>
-  <string name="qm_auto_time_turn_on_title">무음 모드를 시작할 시간을 선택하세요.</string>
-  <string name="qm_notification">무음 모드가 켜졌습니다.</string>
-  <string name="qm_open">무음 모드 켜기</string>
-  <string name="qm_other_settings">고급</string>
-  <string name="qm_other_settings_group">다른 설정</string>
-  <string name="qm_other_settings_info">무음 모드 활성화시 걸려오는 전화 또는 메시지를 조절합니다.</string>
-  <string name="qm_repeated_call_setting_title">"수신 전화가 반복되는것을 막지 않습니다."</string>
-  <string name="qm_repeated_call_summary_3min">3분 이내로 같은 사람에게 통화가 계속 걸려오면 벨소리를 울립니다.</string>
-  <string name="qm_repeated_call_summary_none">계속오는 전화에 대한 예외를 만들지 않습니다.</string>
-  <string name="qm_special_call_setting_group">예외</string>
-  <string name="qm_summary">무음 모드를 활성화 한 후에는, 걸려오는 통화 및 메시지를 알리지 않을것이며 알림을 알리지 않습니다.</string>
-  <string name="qm_vip_call_button_title">허용목록의 통화 허용</string>
-  <string name="qm_vip_call_setting_title">허용목록 수신전화 설정</string>
-  <string name="qm_vip_call_summary_contact">모든 연락처</string>
-  <string name="qm_vip_call_summary_custom">%d 허용목록 예외</string>
-  <string name="qm_vip_call_summary_none">설정되지 않음</string>
-  <string name="qm_vip_list_contact">모든 연락처</string>
-  <string name="qm_vip_list_custom">허용목록</string>
-  <string name="qm_vip_list_custom_group">나의 허용목록</string>
-  <string name="qm_vip_list_group">허용목록</string>
-  <string name="qm_vip_sms_setting_button">허용목록의 메시지 무음처리</string>
-  <string name="quiet_mode">무음 모드</string>
   <string name="st_advanced_setting_group">고급 설정</string>
-  <string name="st_bl_block_setting_title">나중에 묻기</string>
-  <string name="st_bl_setting_group">차단목록 설정</string>
   <string name="st_block_all">통화 및 메시지 차단</string>
   <string name="st_block_mute">통화 차단 및 메시지 무음처리</string>
   <string name="st_block_private_call_button">수신되는 개인 번호 차단</string>
@@ -119,6 +89,4 @@
   <string name="toast_keyword_blank">키워드가 없습니다.</string>
   <string name="toast_keyword_exist">키워드:%s 는 이미 존재합니다.</string>
   <string name="toast_keyword_invalid">올바르지 않은 키워드 형식입니다.</string>
-  <string name="twelve_hour_time_format">a h:mm</string>
-  <string name="twenty_four_hour_time_format">HH:mm</string>
 </resources>
