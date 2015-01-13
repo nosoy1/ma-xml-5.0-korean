@@ -489,4 +489,5 @@
     <string name="new_device_tips">새 기기가 발견되었습니다. 눌러서 확인</string>
     <string name="time_line_view">타임라인_보기</string>
     <string name="folder_holder_file">File placeholder</string>
+	<string name="confirm_delete_init_title">사진 삭제</string>
 </resources>

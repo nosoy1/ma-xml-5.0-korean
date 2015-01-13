@@ -2941,4 +2941,22 @@
   <string name="zone_list_menu_sort_alphabetically">"가나다순으로 정렬"</string>
   <string name="zone_list_menu_sort_by_timezone">"시간대순 정렬"</string>
   <string name="add_auto_startup_application">어플리케이션 추가</string>
+  
+   <string name="other_advanced_settings">추가 설정</string>
+   <string name="lock_settings">잠금 화면</string>
+    <string name="owner_info_settings_title">소유자 정보</string>
+	<string name="bluetooth_unlock_title">블루투스 기기로 잠금 해제</string>
+	<string name="media_feedback_enable_title">비트가 있는 진동</string>
+   <string name="music_audio_effect_optimize">소리 설정</string>
+     <string name="music_audio_effect_optimize_summary">코덱,헤드폰 및 기타 소리 설정</string>
+	 <string name="status_bar_settings_show_notification_icon">알림 앱의 아이콘 표시</string>
+	 <string name="status_bar_settings_show_network_speed">연결 속도 표시</string>
+	 <string name="status_bar_settings_custom_wifi_name">무선랜 이름 수정</string>
+	 <string name="status_bar_settings_custom_notification">알림 관리</string>
+	 <string name="status_bar_settings_no_carrier">없음</string>
+	 <string name="status_bar_settings_show_screenshot_notification">갈무리 알림 표시</string>
+	 <string name="status_bar_settings_toggle_position">토글키 위치</string>
+	 <string name="status_bar_settings_expandable_under_keyguard">잠금화면에 표시</string>
+	 <string name="status_bar_settings_toggle_collapse_after_clicked">터치 후 접기</string>
+	 <string name="account_add">추가</string>
 </resources>

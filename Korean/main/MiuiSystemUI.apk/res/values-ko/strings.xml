@@ -4,7 +4,7 @@
     <string name="app_label">시스템 UI</string>
     <string name="status_bar_recent_remove_item_title">목록에서 삭제</string>
     <string name="status_bar_recent_inspect_item_title">앱 안내</string>
-    <string name="status_bar_no_recent_apps">최근 사용한 앱 없음</string>
+    <string name="status_bar_no_recent_apps">최근 사용한 앱이 없습니다.</string>
     <string name="status_bar_recent_guide_all">위로 올리면 삭제, 아래도 내리면 잠금</string>
     <string name="status_bar_recent_guide_top">위로 올려서 삭제</string>
     <string name="status_bar_recent_guide_bottom">아래로 내려서 잠금</string>
@@ -116,7 +116,7 @@
     <string name="tab_toggles_lable">토글</string>
     <string name="status_bar_time_format_12">h:mma</string>
     <string name="status_bar_time_format_24">HH:mm</string>
-    <string name="status_bar_date_format">E yyyy.M.d</string>
+    <string name="status_bar_date_format">E yyyy.M.d</string> 
     <string name="status_bar_recent_memory_info">%2$s중 %1$s 사용가능</string>
     <string name="usb_mode_notification">USB 저장소</string>
     <string name="usb_mode_dont_ask">이 선택을 기억하세요</string>
